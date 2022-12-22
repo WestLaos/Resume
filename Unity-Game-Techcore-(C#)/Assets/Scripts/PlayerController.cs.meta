@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 5ba2f90426bb9f3489c9ee43e1d4f980
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - timeTracker: {instanceID: 0}
+  - playerCamera: {instanceID: 0}
+  - overviewCamera: {instanceID: 0}
+  - playerHealth: {instanceID: 0}
+  - hpBar: {instanceID: 0}
+  - jumpSound: {fileID: 8300000, guid: 07b22194b780244d993d799e96cb733e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
