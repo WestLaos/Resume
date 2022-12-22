@@ -1,0 +1,1486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_sSGr4LyMEeyJdIl06y8pew" name="csc335_project4_WestLaos">
+    <eAnnotations xmi:id="_sdRaELyMEeyJdIl06y8pew" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_sdRaEbyMEeyJdIl06y8pew" source="codegen">
+        <details xmi:id="_sdRaEryMEeyJdIl06y8pew" key="codegenDirectory" value="/csc335-project4-WestLaos/src"/>
+        <details xmi:id="_tAqbALyMEeyJdIl06y8pew" key="AssociatedSourceCode" value="/csc335-project4-WestLaos/src/controller/WordleController.java;4051463527/1;/csc335-project4-WestLaos/src/model/WordleModel.java;387955907/1;/csc335-project4-WestLaos/src/utilities/Guess.java;2322672392/1;/csc335-project4-WestLaos/src/utilities/INDEX_RESULT.java;1705106433/1;/csc335-project4-WestLaos/src/view/Wordle.java;3762114116/1;/csc335-project4-WestLaos/src/view/WordleGUIView.java;3038372810/1;/csc335-project4-WestLaos/src/view/WordleTextView.java;1293020868/1;/csc335-project4-WestLaos/src/NewClass1.java;2944449853/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_stV2YLyMEeyJdIl06y8pew">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_stV2YbyMEeyJdIl06y8pew">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_stWdcLyMEeyJdIl06y8pew">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_stWdcbyMEeyJdIl06y8pew">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_stWdcryMEeyJdIl06y8pew">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_stWdc7yMEeyJdIl06y8pew">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_stWddLyMEeyJdIl06y8pew">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_stWddbyMEeyJdIl06y8pew">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_stXEgLyMEeyJdIl06y8pew">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_stY5sLyMEeyJdIl06y8pew" name="controller">
+      <packagedElement xmi:type="uml:Package" xmi:id="_stY5sbyMEeyJdIl06y8pew" name="WordleController">
+        <packagedElement xmi:type="uml:Class" xmi:id="_s06eALyMEeyJdIl06y8pew" name="InvalidGuessException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_suOAILyMEeyJdIl06y8pew" name="WordleController">
+        <ownedAttribute xmi:id="_s2B4ULyMEeyJdIl06y8pew" name="NUM_OF_GUESSES" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2DGcLyMEeyJdIl06y8pew" name="WORD_LENGTH" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2DGcryMEeyJdIl06y8pew" name="model" visibility="private" type="_sud3wLyMEeyJdIl06y8pew" association="_s2vC8LyMEeyJdIl06y8pew"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2a54LyMEeyJdIl06y8pew" name="WordleController" specification="_s09hULyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2a54byMEeyJdIl06y8pew" name="model" type="_sud3wLyMEeyJdIl06y8pew"/>
+          <ownedParameter xmi:id="_s2a54ryMEeyJdIl06y8pew" type="_suOAILyMEeyJdIl06y8pew" direction="return"/>
+          <language>java</language>
+          <body>// sets constants
+		this.NUM_OF_GUESSES = model.getNumOfGuesses();
+		this.WORD_LENGTH =  model.getWordLength();
+		
+		this.model = model;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2fLULyMEeyJdIl06y8pew" name="isGameOver" specification="_suSRkLyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2fLUbyMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.model.isGameOver;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2fLUryMEeyJdIl06y8pew" name="getAnswer" specification="_suTfsbyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2fLU7yMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return model.getAnswer();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2fyY7yMEeyJdIl06y8pew" name="makeGuess" specification="_suXKELyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2fyZLyMEeyJdIl06y8pew" name="guess">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// checks guess is a valid length
+		if (guess.length() != this.WORD_LENGTH) {
+			 throw new InvalidGuessException(&quot;Guesses must be 5 digits long&quot;);
+		}
+		
+		// checks guess is a valid word
+		if (this.model.isWordValid(guess) == false) {
+			throw new InvalidGuessException(&quot;Guess is not valid word from game dictionary&quot;);
+		}
+		
+		this.model.makeGuess(this.model.getNumGuessesMade(), guess);		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2fyZbyMEeyJdIl06y8pew" name="getNumOfGuesses" specification="_suXxILyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2fyZryMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.NUM_OF_GUESSES;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2gZcLyMEeyJdIl06y8pew" name="getWordLength" specification="_suYYMbyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2gZcbyMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.WORD_LENGTH;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2gZcryMEeyJdIl06y8pew" name="getNumGuessesMade" specification="_suY_QLyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2gZc7yMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return model.getNumGuessesMade();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2gZdLyMEeyJdIl06y8pew" name="getGuessedChars" specification="_suZmULyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2gZdbyMEeyJdIl06y8pew" type="_suqsELyMEeyJdIl06y8pew" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s2gZdryMEeyJdIl06y8pew" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return model.getGuessedCharacters();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2hAgLyMEeyJdIl06y8pew" name="getProgress" specification="_suaNYLyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2hAgbyMEeyJdIl06y8pew" type="_suo24LyMEeyJdIl06y8pew" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s2hAgryMEeyJdIl06y8pew" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return model.getProgress();
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_suSRkLyMEeyJdIl06y8pew" name="isGameOver" method="_s2fLULyMEeyJdIl06y8pew">
+          <ownedComment xmi:id="_s2nuMLyMEeyJdIl06y8pew">
+            <body>Returns true or false to indicate if game is over.
+	 * 
+	 * If player has either guessed the correct word or run out of guesses 
+	 * this will return true else it will return false.
+	 * 
+	 * @return isGameOver a boolean value that is false 
+	 * when the game is still running and true when the end has been reached.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_suTfsLyMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_suTfsbyMEeyJdIl06y8pew" name="getAnswer" method="_s2fLUryMEeyJdIl06y8pew">
+          <ownedComment xmi:id="_s2nuMbyMEeyJdIl06y8pew">
+            <body>This returns a string of the correct word.
+	 * 
+	 * This method gets the correct word from the model and then returns it.
+	 * 
+	 * @return a String value of the correct word.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_suUGwLyMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_suXKELyMEeyJdIl06y8pew" name="makeGuess" method="_s2fyY7yMEeyJdIl06y8pew" raisedException="_suUt0LyMEeyJdIl06y8pew">
+          <ownedComment xmi:id="_s2nuM7yMEeyJdIl06y8pew">
+            <body>@param guess a String value that contains the players guess at the correct word
+	 * @throws InvalidGuessException this indicates the String given in the parameter guess was either
+	 * to long to short or not contained in the file Dictionary.txt</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_suXKEbyMEeyJdIl06y8pew" name="guess">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_suXxILyMEeyJdIl06y8pew" name="getNumOfGuesses" method="_s2fyZbyMEeyJdIl06y8pew">
+          <ownedComment xmi:id="_s2nuNLyMEeyJdIl06y8pew">
+            <body>Retuns a int represent the num of guesses given to the player.
+	 * 
+	 * Gets the number of guesses the player has from the model and returns it.
+	 * 
+	 * @return int represent the num of guesses given to the player.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_suYYMLyMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_suYYMbyMEeyJdIl06y8pew" name="getWordLength" method="_s2gZcLyMEeyJdIl06y8pew">
+          <ownedComment xmi:id="_s2nuNbyMEeyJdIl06y8pew">
+            <body>Returns int representing the Length of words in wordle.
+	 * 
+	 * Gets the length of words from the model and returns it
+	 * 
+	 * @return int representing the Length of words in wordle.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_suYYMryMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_suY_QLyMEeyJdIl06y8pew" name="getNumGuessesMade" method="_s2gZcryMEeyJdIl06y8pew">
+          <ownedComment xmi:id="_s2oVQLyMEeyJdIl06y8pew">
+            <body>Retuns a int represent the num of guesses player has made so far
+	 * 
+	 * Gets the number of guesses the player has made from the model and returns it.
+	 * 
+	 * @return int represent the num of guesses made by the player.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_suY_QbyMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_suZmULyMEeyJdIl06y8pew" name="getGuessedChars" method="_s2gZdLyMEeyJdIl06y8pew">
+          <ownedComment xmi:id="_s2oVQbyMEeyJdIl06y8pew">
+            <body>Returns a INDEX_RESULT[] containing all guessed characters.
+	 * 
+	 * Returns a INDEX_RESULT[] of length 26 containing INDEX_RESULTS for guessed
+	 * characters at their alphabetical location and null values for characters 
+	 * that have not been guessed.
+	 * 
+	 * @return a INDEX_RESULT[] containing all guessed characters.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_suZmUbyMEeyJdIl06y8pew" type="_suqsELyMEeyJdIl06y8pew" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_suZmUryMEeyJdIl06y8pew" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_suaNYLyMEeyJdIl06y8pew" name="getProgress" method="_s2hAgLyMEeyJdIl06y8pew">
+          <ownedComment xmi:id="_s2oVQryMEeyJdIl06y8pew">
+            <body>Returns a Guess[] containing all guesses made so far.
+	 * 
+	 * Returns a Guess[] of length model.NUM_OF_GUESSES containing all guesses
+	 * made so far and null values for remaining guesses.
+	 * 
+	 * @return a Guess[] containing all guesses made in the game so far.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_sua0cLyMEeyJdIl06y8pew" type="_suo24LyMEeyJdIl06y8pew" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sua0cbyMEeyJdIl06y8pew" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_s09hULyMEeyJdIl06y8pew" name="WordleController" method="_s2a54LyMEeyJdIl06y8pew">
+          <eAnnotations xmi:id="_s0-IYLyMEeyJdIl06y8pew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_s0-IYbyMEeyJdIl06y8pew" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_s09hUbyMEeyJdIl06y8pew" name="model" type="_sud3wLyMEeyJdIl06y8pew"/>
+          <ownedParameter xmi:id="_s0-IYryMEeyJdIl06y8pew" type="_suOAILyMEeyJdIl06y8pew" direction="return"/>
+        </ownedOperation>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_suUt0LyMEeyJdIl06y8pew" name="InvalidGuessException">
+          <ownedComment xmi:id="_s2nuMryMEeyJdIl06y8pew">
+            <body>@author West Laos
+	 *
+	 * This class extends Exception and is used to indicate to the view when
+	 * the user has entered and Invalid guess
+	 *</body>
+          </ownedComment>
+          <generalization xmi:id="_s1xZo7yMEeyJdIl06y8pew" general="_s1xZobyMEeyJdIl06y8pew"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2fyYLyMEeyJdIl06y8pew" name="InvalidGuessException" specification="_suVU4LyMEeyJdIl06y8pew">
+            <ownedParameter xmi:id="_s2fyYbyMEeyJdIl06y8pew" name="message">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_s2fyYryMEeyJdIl06y8pew" type="_suUt0LyMEeyJdIl06y8pew" direction="return"/>
+            <language>java</language>
+            <body>super(message);
+		</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_suVU4LyMEeyJdIl06y8pew" name="InvalidGuessException" method="_s2fyYLyMEeyJdIl06y8pew">
+            <eAnnotations xmi:id="_suV78LyMEeyJdIl06y8pew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_suV78byMEeyJdIl06y8pew" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_suVU4byMEeyJdIl06y8pew" name="message">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_suV78ryMEeyJdIl06y8pew" type="_suUt0LyMEeyJdIl06y8pew" direction="return"/>
+          </ownedOperation>
+        </nestedClassifier>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_s2vC8LyMEeyJdIl06y8pew" name="" memberEnd="_s2vC8byMEeyJdIl06y8pew _s2DGcryMEeyJdIl06y8pew">
+        <ownedEnd xmi:id="_s2vC8byMEeyJdIl06y8pew" name="" type="_suOAILyMEeyJdIl06y8pew" association="_s2vC8LyMEeyJdIl06y8pew"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_stZgwLyMEeyJdIl06y8pew" name="model">
+      <packagedElement xmi:type="uml:Class" xmi:id="_sud3wLyMEeyJdIl06y8pew" name="WordleModel">
+        <generalization xmi:id="_sumaoLyMEeyJdIl06y8pew" general="_suklcLyMEeyJdIl06y8pew"/>
+        <ownedAttribute xmi:id="_s2DtgLyMEeyJdIl06y8pew" name="FILENAME" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_s2EUkLyMEeyJdIl06y8pew" value="&quot;dictionary.txt&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2EUkbyMEeyJdIl06y8pew" name="NUM_OF_GUESSES" visibility="private" isLeaf="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_s2E7oLyMEeyJdIl06y8pew" value="6"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2E7oryMEeyJdIl06y8pew" name="WORD_LENGTH" visibility="private" isLeaf="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_s2E7o7yMEeyJdIl06y8pew" value="5"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2FisbyMEeyJdIl06y8pew" name="guessedCharacters" type="_suqsELyMEeyJdIl06y8pew" isReadOnly="true">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s2FisryMEeyJdIl06y8pew" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2GJwbyMEeyJdIl06y8pew" name="progress" visibility="private" type="_suo24LyMEeyJdIl06y8pew" association="_s2wREbyMEeyJdIl06y8pew">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s2GJwryMEeyJdIl06y8pew" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2Gw0byMEeyJdIl06y8pew" name="validWords" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s2Gw0ryMEeyJdIl06y8pew" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2HX4LyMEeyJdIl06y8pew" name="answer" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2HX4byMEeyJdIl06y8pew" name="numGuessesMade" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2HX4ryMEeyJdIl06y8pew" name="isGameOver">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2hAg7yMEeyJdIl06y8pew" name="WordleModel" specification="_sufs8LyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2hAhLyMEeyJdIl06y8pew" type="_sud3wLyMEeyJdIl06y8pew" direction="return"/>
+          <language>java</language>
+          <body>// gets answers and all valid words
+		this.answer = getWordFromDict();
+		// tracks which characters have been guessed and the results
+		this.guessedCharacters = new INDEX_RESULT[26];
+		// tracks all valid guesses made
+		this.progress = new Guess[NUM_OF_GUESSES];
+		this.numGuessesMade = 0;
+		this.isGameOver = false;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2hAhbyMEeyJdIl06y8pew" name="getWordFromDict" specification="_sug7ELyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2hAhryMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// creates scanner of all the lines in Dictionary (FILENAME constant)
+		Scanner dictionary = new Scanner(new File(FILENAME));
+		
+		// stores all the words from Dictionary 
+		// with each word separated by a space
+		String allWords = &quot;&quot;;
+		
+		// adds words from Dictionary to allWords
+		while (dictionary.hasNextLine()) {
+			allWords += dictionary.nextLine() + &quot; &quot;;
+		}
+		allWords = allWords.trim();
+		dictionary.close();
+		
+		// sets validWords
+		this.validWords = allWords.split(&quot; &quot;);
+		
+		// splits allWords into an array then selects a random words from the array
+		return 
+			allWords.split(&quot; &quot;)[(int) (Math.random() * 
+					(allWords.split(&quot; &quot;).length - 1))].toUpperCase();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2hnkLyMEeyJdIl06y8pew" name="makeGuess" specification="_suiJMLyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2hnkbyMEeyJdIl06y8pew" name="guessNumber">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_s2hnkryMEeyJdIl06y8pew" name="guess">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// adds letters to guessed Characters and to guessIndecis
+		INDEX_RESULT[] guessIndices = new INDEX_RESULT[this.WORD_LENGTH];
+		INDEX_RESULT curIndex;
+		// iterates through chars in guess
+		for (int i = 0; i &lt; this.WORD_LENGTH; i++) {
+			// if cur char is correct
+			if (guess.charAt(i) == this.answer.charAt(i)) {
+					this.guessedCharacters[guess.charAt(i) - 'A'] = INDEX_RESULT.CORRECT;
+					guessIndices[i] = INDEX_RESULT.CORRECT;
+			// if cur char is in word but in wrong place 
+			// * + &quot;&quot; converts char to str
+			} else if (this.answer.contains(guess.charAt(i) + &quot;&quot;)) {
+				// checks if char has been guess correctly before
+				if (this.guessedCharacters[guess.charAt(i) - 'A'] != INDEX_RESULT.CORRECT) {
+					this.guessedCharacters[guess.charAt(i) - 'A'] = INDEX_RESULT.CORRECT_WRONG_INDEX;
+					guessIndices[i] = INDEX_RESULT.CORRECT_WRONG_INDEX;
+				}
+			// if cur char is not in the word
+			} else {
+				this.guessedCharacters[guess.charAt(i) - 'A'] = INDEX_RESULT.INCORRECT;
+				guessIndices[i] = INDEX_RESULT.INCORRECT;
+			}
+		}
+		// makes a new &quot;Guess&quot; and adds it to progress
+		this.progress[this.numGuessesMade] = 
+				new Guess(guess, guessIndices, guess.toUpperCase().equals(this.answer));
+		this.numGuessesMade += 1;
+		
+		// if player has guessed correct word game is over
+		if (this.progress[this.numGuessesMade- 1].getIsCorrect()) {
+			this.isGameOver = true;
+		// if player has made maximum number of guesses game is over
+		} else if (this.NUM_OF_GUESSES == this.numGuessesMade){
+			this.isGameOver = true;
+		}
+		
+		this.setChanged();
+		this.notifyObservers();
+		this.clearChanged();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2hnk7yMEeyJdIl06y8pew" name="getProgress" specification="_suiJM7yMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2hnlLyMEeyJdIl06y8pew" type="_suo24LyMEeyJdIl06y8pew" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s2hnlbyMEeyJdIl06y8pew" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.progress;
+		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2hnlryMEeyJdIl06y8pew" name="isWordValid" specification="_sujXULyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2hnl7yMEeyJdIl06y8pew" name="word">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_s2hnmLyMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; this.validWords.length; i++) {
+			if (validWords[i].toUpperCase().equals(word.toUpperCase())) {
+				return true;
+			}
+		}
+		return false;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2iOoLyMEeyJdIl06y8pew" name="getNumOfGuesses" specification="_sujXU7yMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2iOobyMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.NUM_OF_GUESSES;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2iOoryMEeyJdIl06y8pew" name="getWordLength" specification="_suj-YLyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2iOo7yMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.WORD_LENGTH;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2iOpLyMEeyJdIl06y8pew" name="isGameOver" specification="_suj-YryMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2iOpbyMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.isGameOver;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_sufs8LyMEeyJdIl06y8pew" name="WordleModel" method="_s2hAg7yMEeyJdIl06y8pew" raisedException="_s1CZ0byMEeyJdIl06y8pew">
+          <eAnnotations xmi:id="_sufs8byMEeyJdIl06y8pew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_sufs8ryMEeyJdIl06y8pew" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_sufs87yMEeyJdIl06y8pew" type="_sud3wLyMEeyJdIl06y8pew" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sug7ELyMEeyJdIl06y8pew" name="getWordFromDict" visibility="private" method="_s2hAhbyMEeyJdIl06y8pew" raisedException="_s1CZ0byMEeyJdIl06y8pew">
+          <ownedComment xmi:id="_s2oVQ7yMEeyJdIl06y8pew">
+            <body>Returns a word to be used as the correct answer for the game. 
+	 * 
+	 * A word is selected from Dictionary.txt and returned and used as answer for game.
+	 * Also initiallized the validWords field filling it with all words from Dictionary.txt.
+	 * 
+	 * @return String of a word
+	 * @throws FileNotFoundException throws error if Dictionary.txt missing</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_sug7EbyMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_suiJMLyMEeyJdIl06y8pew" name="makeGuess" method="_s2hnkLyMEeyJdIl06y8pew">
+          <ownedComment xmi:id="_s2oVRLyMEeyJdIl06y8pew">
+            <body>Takes in a string value and turns it into a guess and adds it to progress
+	 * 
+	 * Takes in a string value sees which letters in it if any match the answers and creates
+	 * and Guess to represent how close it was to the correct answer and if it was correct.
+	 * 
+	 * @param guess String value representing player guess at correct the answer</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_suiJMbyMEeyJdIl06y8pew" name="guessNumber">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_suiJMryMEeyJdIl06y8pew" name="guess">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_suiJM7yMEeyJdIl06y8pew" name="getProgress" method="_s2hnk7yMEeyJdIl06y8pew">
+          <ownedComment xmi:id="_s2oVRbyMEeyJdIl06y8pew">
+            <body>Returns a Guess[] containing all guesses made so far.
+	 * 
+	 * Returns a Guess[] of length model.NUM_OF_GUESSES containing all guesses
+	 * made so far and null values for remaining guesses.
+	 * 
+	 * @return a Guess[] containing all guesses made in the game so far.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_suiJNLyMEeyJdIl06y8pew" type="_suo24LyMEeyJdIl06y8pew" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_suiwQLyMEeyJdIl06y8pew" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sujXULyMEeyJdIl06y8pew" name="isWordValid" method="_s2hnlryMEeyJdIl06y8pew">
+          <ownedComment xmi:id="_s2oVRryMEeyJdIl06y8pew">
+            <body>Checks if word given is valid for the game
+	 * 
+	 * Returns true if the word given is contained in Dictionary.txt else returns false
+	 * 
+	 * @param word String of word to be checked against word in dictionary
+	 * @return Boolean representing if word is valid</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_sujXUbyMEeyJdIl06y8pew" name="word">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_sujXUryMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sujXU7yMEeyJdIl06y8pew" name="getNumOfGuesses" method="_s2iOoLyMEeyJdIl06y8pew">
+          <ownedComment xmi:id="_s2oVR7yMEeyJdIl06y8pew">
+            <body>Retuns a int represent the num of guesses player has made so far
+	 * 
+	 * Gets the number of guesses the player has made from the model and returns it.
+	 * 
+	 * @return int represent the num of guesses made by the player.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_sujXVLyMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_suj-YLyMEeyJdIl06y8pew" name="getWordLength" method="_s2iOoryMEeyJdIl06y8pew">
+          <ownedComment xmi:id="_s2oVSLyMEeyJdIl06y8pew">
+            <body>Returns int representing the Length of words in wordle.
+	 * 
+	 * Gets the length of words from the model and returns it
+	 * 
+	 * @return int representing the Length of words in wordle.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_suj-YbyMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_suj-YryMEeyJdIl06y8pew" name="isGameOver" method="_s2iOpLyMEeyJdIl06y8pew">
+          <ownedComment xmi:id="_s2oVSbyMEeyJdIl06y8pew">
+            <body>Retuns a boolean representing if game is over.
+	 * 
+	 * Returns true if game is over returns false if game has not ended
+	 * 
+	 * @return boolean</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_suj-Y7yMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_s2wREbyMEeyJdIl06y8pew" name="" memberEnd="_s2wREryMEeyJdIl06y8pew _s2GJwbyMEeyJdIl06y8pew">
+        <ownedEnd xmi:id="_s2wREryMEeyJdIl06y8pew" name="" type="_sud3wLyMEeyJdIl06y8pew" association="_s2wREbyMEeyJdIl06y8pew"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_stZgwbyMEeyJdIl06y8pew" name="utilities">
+      <packagedElement xmi:type="uml:Class" xmi:id="_suo24LyMEeyJdIl06y8pew" name="Guess">
+        <ownedAttribute xmi:id="_s2ImALyMEeyJdIl06y8pew" name="guess" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2ImAbyMEeyJdIl06y8pew" name="indices" type="_suqsELyMEeyJdIl06y8pew" isReadOnly="true">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s2ImAryMEeyJdIl06y8pew" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2JNELyMEeyJdIl06y8pew" name="isCorrect" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2jcwLyMEeyJdIl06y8pew" name="Guess" specification="_s1JukLyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2jcwbyMEeyJdIl06y8pew" name="guess">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_s2jcwryMEeyJdIl06y8pew" name="indices" type="_suqsELyMEeyJdIl06y8pew">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s2jcw7yMEeyJdIl06y8pew" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_s2jcxLyMEeyJdIl06y8pew" name="isCorrect">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_s2jcxbyMEeyJdIl06y8pew" type="_suo24LyMEeyJdIl06y8pew" direction="return"/>
+          <language>java</language>
+          <body>if (guess.length() != indices.length) {
+			throw new IllegalArgumentException(&quot;The length of the guess and its index results must be equal.&quot;);
+		}
+		this.guess = guess;
+		this.indices = indices;
+		this.isCorrect = isCorrect;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_s1JukLyMEeyJdIl06y8pew" name="Guess" method="_s2jcwLyMEeyJdIl06y8pew">
+          <eAnnotations xmi:id="_s1KVobyMEeyJdIl06y8pew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_s1KVoryMEeyJdIl06y8pew" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_s1JukbyMEeyJdIl06y8pew" name="guess">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_s1JukryMEeyJdIl06y8pew" name="indices" type="_suqsELyMEeyJdIl06y8pew">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s1K8sLyMEeyJdIl06y8pew" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_s1KVoLyMEeyJdIl06y8pew" name="isCorrect">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_s1KVo7yMEeyJdIl06y8pew" type="_suo24LyMEeyJdIl06y8pew" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="_suqsELyMEeyJdIl06y8pew" name="INDEX_RESULT">
+        <ownedAttribute xmi:id="_s2LCQLyMEeyJdIl06y8pew" name="description" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_sutIULyMEeyJdIl06y8pew" name="INDEX_RESULT" visibility="private" method="_s2jcxryMEeyJdIl06y8pew">
+          <eAnnotations xmi:id="_sutvYLyMEeyJdIl06y8pew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_sutvYbyMEeyJdIl06y8pew" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_sutIUbyMEeyJdIl06y8pew" name="description">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_sutvYryMEeyJdIl06y8pew" type="_suqsELyMEeyJdIl06y8pew" direction="return"/>
+        </ownedOperation>
+        <ownedLiteral xmi:id="_surTILyMEeyJdIl06y8pew" name="INCORRECT">
+          <specification xmi:type="uml:Expression" xmi:id="_surTIbyMEeyJdIl06y8pew">
+            <operand xmi:type="uml:LiteralString" xmi:id="_s2o8ULyMEeyJdIl06y8pew" value="&quot;Incorrect&quot;"/>
+          </specification>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="_sur6MLyMEeyJdIl06y8pew" name="CORRECT">
+          <specification xmi:type="uml:Expression" xmi:id="_sur6MbyMEeyJdIl06y8pew">
+            <operand xmi:type="uml:LiteralString" xmi:id="_s2o8UbyMEeyJdIl06y8pew" value="&quot;Correct&quot;"/>
+          </specification>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="_sur6MryMEeyJdIl06y8pew" name="CORRECT_WRONG_INDEX">
+          <specification xmi:type="uml:Expression" xmi:id="_sur6M7yMEeyJdIl06y8pew">
+            <operand xmi:type="uml:LiteralString" xmi:id="_s2o8UryMEeyJdIl06y8pew" value="&quot;Correct letter, wrong index&quot;"/>
+          </specification>
+        </ownedLiteral>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_stluALyMEeyJdIl06y8pew" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_stmVELyMEeyJdIl06y8pew" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_s1BLsLyMEeyJdIl06y8pew" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_s1CZ0byMEeyJdIl06y8pew" name="FileNotFoundException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_stmVEbyMEeyJdIl06y8pew" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_suklcLyMEeyJdIl06y8pew" name="Observable"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_s1Dn8byMEeyJdIl06y8pew" name="Observer"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_s1E2EbyMEeyJdIl06y8pew" name="Scanner"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_s1OAALyMEeyJdIl06y8pew" name="Optional"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_s1xZoLyMEeyJdIl06y8pew" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_s1xZobyMEeyJdIl06y8pew" name="Exception"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_s17Ko7yMEeyJdIl06y8pew" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_st0XgLyMEeyJdIl06y8pew" name="javafx">
+      <packagedElement xmi:type="uml:Package" xmi:id="_st0XgbyMEeyJdIl06y8pew" name="application">
+        <packagedElement xmi:type="uml:Class" xmi:id="_s1MK0LyMEeyJdIl06y8pew" name="Application"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_st3a0LyMEeyJdIl06y8pew" name="animation">
+        <packagedElement xmi:type="uml:Class" xmi:id="_s1POIbyMEeyJdIl06y8pew" name="PauseTransition"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_s1QcQbyMEeyJdIl06y8pew" name="RotateTransition"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_st3a0byMEeyJdIl06y8pew" name="event">
+        <packagedElement xmi:type="uml:Class" xmi:id="_s1RqYLyMEeyJdIl06y8pew" name="ActionEvent"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_s1S4gLyMEeyJdIl06y8pew" name="EventHandler"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_st3a0ryMEeyJdIl06y8pew" name="geometry">
+        <packagedElement xmi:type="uml:Class" xmi:id="_s1TfkbyMEeyJdIl06y8pew" name="Insets"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_s1UGobyMEeyJdIl06y8pew" name="Pos"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_st4B4LyMEeyJdIl06y8pew" name="scene">
+        <packagedElement xmi:type="uml:Package" xmi:id="_st4B4byMEeyJdIl06y8pew" name="control">
+          <packagedElement xmi:type="uml:Class" xmi:id="_s1V70ryMEeyJdIl06y8pew" name="Alert"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_s1Wi4byMEeyJdIl06y8pew" name="Button"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_s1XJ8byMEeyJdIl06y8pew" name="ButtonType"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_s1XxAbyMEeyJdIl06y8pew" name="Label"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_st4B4ryMEeyJdIl06y8pew" name="input">
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_s1YYEbyMEeyJdIl06y8pew" name="KeyCode"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_s1Y_IbyMEeyJdIl06y8pew" name="KeyEvent"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_st4o8LyMEeyJdIl06y8pew" name="layout">
+          <packagedElement xmi:type="uml:Class" xmi:id="_s1ZmMbyMEeyJdIl06y8pew" name="Background"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_s1aNQbyMEeyJdIl06y8pew" name="BackgroundFill"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_s1a0UbyMEeyJdIl06y8pew" name="Border"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_s1bbYbyMEeyJdIl06y8pew" name="BorderStroke"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_s1cCcLyMEeyJdIl06y8pew" name="BorderStrokeStyle"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_s1cCcryMEeyJdIl06y8pew" name="BorderWidths"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_s1dQkLyMEeyJdIl06y8pew" name="CornerRadii"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_s1d3obyMEeyJdIl06y8pew" name="GridPane"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_s1eesbyMEeyJdIl06y8pew" name="TilePane"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_s1ees7yMEeyJdIl06y8pew" name="VBox"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_st4o8byMEeyJdIl06y8pew" name="paint">
+          <packagedElement xmi:type="uml:Class" xmi:id="_s1fs0byMEeyJdIl06y8pew" name="Color"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_s1fs07yMEeyJdIl06y8pew" name="Paint"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_st4o8ryMEeyJdIl06y8pew" name="text">
+          <packagedElement xmi:type="uml:Class" xmi:id="_s1gT4byMEeyJdIl06y8pew" name="Font"/>
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_s1g68byMEeyJdIl06y8pew" name="TextAlignment"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_s1UtsbyMEeyJdIl06y8pew" name="Node"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_s1V70LyMEeyJdIl06y8pew" name="Scene"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_st5QALyMEeyJdIl06y8pew" name="stage">
+        <packagedElement xmi:type="uml:Class" xmi:id="_s1hiAbyMEeyJdIl06y8pew" name="Popup"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_s1iJEbyMEeyJdIl06y8pew" name="PopupWindow"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_s1jXMLyMEeyJdIl06y8pew" name="Stage"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_st5QAbyMEeyJdIl06y8pew" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_s1j-QbyMEeyJdIl06y8pew" name="Duration"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_st2MsLyMEeyJdIl06y8pew" name="view">
+      <packagedElement xmi:type="uml:Class" xmi:id="_suu9gLyMEeyJdIl06y8pew" name="Wordle">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2kD0ryMEeyJdIl06y8pew" name="main" specification="_suwLoLyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2kD07yMEeyJdIl06y8pew" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s2kD1LyMEeyJdIl06y8pew" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>boolean repeat = true;
+ 	while (repeat) {
+			if (args.length > 0 &amp;&amp; args[0].equals(&quot;-line&quot;)) {
+				// this function creates and run the WordleTextView class
+				playWordleTextView();
+				// this function promptes user to see if they would like to play again
+				// and if not it exits the programs
+				repeat = playAgainTextView();
+				
+			} else {
+				// this function run the WordleGUIView class
+				Application.launch(WordleGUIView.class, args);
+				repeat = false;
+			}
+ 	}
+ 	
+ 	
+ 	
+ 	
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2kD1byMEeyJdIl06y8pew" name="playWordleTextView" specification="_suwysbyMEeyJdIl06y8pew">
+          <language>java</language>
+          <body>WordleTextView wordle = new WordleTextView();
+ 	wordle.play();
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2kq4LyMEeyJdIl06y8pew" name="playAgainTextView" specification="_suyA0LyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2kq4byMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Scanner userInput = new Scanner(System.in);  
+ 	String playAgain = &quot;&quot;;
+		// checks if user would like to play again and if not exits
+		System.out.println(&quot;Would you like to play again? yes/no&quot;);
+		while (playAgain == &quot;&quot;) {
+			playAgain = userInput.nextLine();
+			
+			// if they want to play again the code does nothing the 
+			// loop will end on its own and the greater loop will 
+			// repeat
+			if (playAgain.toLowerCase().equals(&quot;yes&quot;) 
+					| playAgain.toLowerCase().equals(&quot;y&quot;)) {
+					return true;
+			// if they do not want to play again exits the programs
+			} else if (playAgain.toLowerCase().equals(&quot;no&quot;) 
+					| playAgain.toLowerCase().equals(&quot;n&quot;)) {
+				System.out.print(&quot;Thanks for playing!!!&quot;);
+				System.exit(0);
+				
+			// if they give an invalid input prints a message explaining the 
+			// the input is invalid then resets playAgain and repats loop
+			} else {
+				System.out.println(&quot;Sorry &quot; + playAgain 
+						+ &quot; is not a valid input please enter yes or no &quot;);
+				playAgain = &quot;&quot;;
+			}
+		}
+		return false;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_suwLoLyMEeyJdIl06y8pew" name="main" isStatic="true" method="_s2kD0ryMEeyJdIl06y8pew" raisedException="_s1CZ0byMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_suwLobyMEeyJdIl06y8pew" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_suwysLyMEeyJdIl06y8pew" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_suwysbyMEeyJdIl06y8pew" name="playWordleTextView" visibility="private" isStatic="true" method="_s2kD1byMEeyJdIl06y8pew" raisedException="_s1CZ0byMEeyJdIl06y8pew"/>
+        <ownedOperation xmi:id="_suyA0LyMEeyJdIl06y8pew" name="playAgainTextView" visibility="private" isStatic="true" method="_s2kq4LyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_suyA0byMEeyJdIl06y8pew" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_suyn4LyMEeyJdIl06y8pew" name="WordleGUIView">
+        <generalization xmi:id="_s18YxbyMEeyJdIl06y8pew" general="_s1MK0LyMEeyJdIl06y8pew"/>
+        <ownedAttribute xmi:id="_s2MQYLyMEeyJdIl06y8pew" name="SCENE_WIDTH" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_s2MQYbyMEeyJdIl06y8pew" value="800"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2MQYryMEeyJdIl06y8pew" name="SCENE_HEIGHT" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_s2MQY7yMEeyJdIl06y8pew" value="800"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2M3cLyMEeyJdIl06y8pew" name="GRID_GAP" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_s2M3cbyMEeyJdIl06y8pew" value="4"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2M3cryMEeyJdIl06y8pew" name="LETTER_FONT_SIZE" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_s2M3c7yMEeyJdIl06y8pew" value="55"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2M3dLyMEeyJdIl06y8pew" name="LETTER_SQUARE_SIZE" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_s2NegLyMEeyJdIl06y8pew" value="65"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2NegbyMEeyJdIl06y8pew" name="DISPLAY_FONT_SIZE" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_s2NegryMEeyJdIl06y8pew" value="35"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2Neg7yMEeyJdIl06y8pew" name="DISPLAY_SQUARE_SIZE" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_s2OFkLyMEeyJdIl06y8pew" value="45"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2OFkbyMEeyJdIl06y8pew" name="BACKGROUND_WHITE" visibility="private" isLeaf="true" isStatic="true" type="_s1ZmMbyMEeyJdIl06y8pew" isReadOnly="true" association="_s2w4IbyMEeyJdIl06y8pew">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_s2OFkryMEeyJdIl06y8pew" value="new Background(new BackgroundFill(Color.rgb(250, 250, 250, 1), new &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;CornerRadii(5.0), new Insets(0)))"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2OFk7yMEeyJdIl06y8pew" name="BACKGROUND_GREY" visibility="private" isLeaf="true" isStatic="true" type="_s1ZmMbyMEeyJdIl06y8pew" isReadOnly="true" association="_s2xfMbyMEeyJdIl06y8pew">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_s2OFlLyMEeyJdIl06y8pew" value="new Background(new BackgroundFill(Color.rgb(200, 200, 200, 1), new &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;CornerRadii(5.0), new Insets(0)))"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2OsoLyMEeyJdIl06y8pew" name="BACKGROUND_RED" visibility="private" isLeaf="true" isStatic="true" type="_s1ZmMbyMEeyJdIl06y8pew" isReadOnly="true" association="_s2ytULyMEeyJdIl06y8pew">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_s2OsobyMEeyJdIl06y8pew" value="new Background(new BackgroundFill(Color.rgb(238, 75, 43, 1), new &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;CornerRadii(5.0), new Insets(0)))"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2OsoryMEeyJdIl06y8pew" name="BACKGROUND_YELLOW" visibility="private" isLeaf="true" isStatic="true" type="_s1ZmMbyMEeyJdIl06y8pew" isReadOnly="true" association="_s2ytU7yMEeyJdIl06y8pew">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_s2Oso7yMEeyJdIl06y8pew" value="new Background(new BackgroundFill(Color.rgb(225, 234, 0, 1), new &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;CornerRadii(5.0), new Insets(0)))"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2OspLyMEeyJdIl06y8pew" name="BACKGROUND_GREEN" visibility="private" isLeaf="true" isStatic="true" type="_s1ZmMbyMEeyJdIl06y8pew" isReadOnly="true" association="_s2zUYbyMEeyJdIl06y8pew">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_s2PTsLyMEeyJdIl06y8pew" value="new Background(new BackgroundFill(Color.rgb(34, 139, 34, 1), new &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;CornerRadii(5.0), new Insets(0)))"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2PTsbyMEeyJdIl06y8pew" name="inputLabel" visibility="private" type="_s1XxAbyMEeyJdIl06y8pew" association="_s2z7cbyMEeyJdIl06y8pew">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s2PTsryMEeyJdIl06y8pew" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2P6wbyMEeyJdIl06y8pew" name="alphabet" visibility="private" type="_s1XxAbyMEeyJdIl06y8pew" association="_s20igbyMEeyJdIl06y8pew">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s2Qh0LyMEeyJdIl06y8pew" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s2Qh07yMEeyJdIl06y8pew" name="stage" visibility="private" type="_s1jXMLyMEeyJdIl06y8pew" association="_s21JkbyMEeyJdIl06y8pew"/>
+        <ownedAttribute xmi:id="_s2RI4byMEeyJdIl06y8pew" name="vbox" visibility="private" type="_s1ees7yMEeyJdIl06y8pew" association="_s22XsLyMEeyJdIl06y8pew"/>
+        <ownedAttribute xmi:id="_s2RI47yMEeyJdIl06y8pew" name="model" visibility="private" type="_sud3wLyMEeyJdIl06y8pew" association="_s22-wLyMEeyJdIl06y8pew"/>
+        <ownedAttribute xmi:id="_s2Rv8byMEeyJdIl06y8pew" name="controler" visibility="private" type="_suOAILyMEeyJdIl06y8pew" association="_s23l0byMEeyJdIl06y8pew"/>
+        <ownedAttribute xmi:id="_s2Rv87yMEeyJdIl06y8pew" name="curGuess" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_s125MLyMEeyJdIl06y8pew" client="_suyn4LyMEeyJdIl06y8pew" supplier="_s1Dn8byMEeyJdIl06y8pew" contract="_s1Dn8byMEeyJdIl06y8pew"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2kq4ryMEeyJdIl06y8pew" name="start" specification="_s14uYLyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2kq47yMEeyJdIl06y8pew" name="stage" type="_s1jXMLyMEeyJdIl06y8pew"/>
+          <language>java</language>
+          <body>this.stage = stage;
+		this.model = new WordleModel();
+		this.model.addObserver(this);
+		this.controler = new WordleController(model);
+		
+	    GridPane inputGrid = createGrid(); 
+	    inputLabel = new Label[controler.getNumOfGuesses()][controler.getWordLength()];
+		for (int y = 0; y &lt; controler.getNumOfGuesses(); y++) {
+			for (int x = 0; x &lt; controler.getWordLength(); x++) {
+				inputLabel[y][x] = createLabel(null, 
+						LETTER_SQUARE_SIZE, LETTER_FONT_SIZE, BACKGROUND_WHITE, true);
+				inputGrid.add(inputLabel[y][x], x, y);
+			}
+		}
+		
+		GridPane alphabetGird = createGrid();
+		this.alphabet = new Label[26];
+		int curLetter = 0;
+		for (int y = 0; y &lt; 4; y++) {
+			for (int x = y; x &lt; (11 - y); x++) {
+				if (curLetter > 25) {
+					break;
+				}
+				alphabet[curLetter] = createLabel((char)('A' + curLetter) + &quot;&quot;, 
+						DISPLAY_SQUARE_SIZE, DISPLAY_FONT_SIZE, BACKGROUND_GREY, false);
+				alphabetGird.add(alphabet[curLetter], x, y);
+				curLetter += 1;
+			}
+		}
+		
+		// sets up scene an shows stage
+		this.vbox = new VBox();
+		this.vbox.getChildren().add(new Label()); 		// creates space between top and first row
+		this.vbox.getChildren().add(inputGrid); 		// first row set to gridpane
+		this.vbox.getChildren().add(new Label()); 		// creates space between first and third row
+		this.vbox.getChildren().add(alphabetGird); 		// third row set to letterGird
+		this.vbox.setBackground(BACKGROUND_WHITE); 		// sets background color to white
+		this.vbox.setAlignment(Pos.CENTER);
+     Scene scene = new Scene(this.vbox, SCENE_WIDTH, SCENE_HEIGHT);
+     stage.setScene(scene);
+     stage.setTitle(&quot;Wordle!&quot;);
+		stage.show();
+		
+		
+		curGuess = &quot;&quot;;
+
+		scene.setOnKeyPressed(new EventHandler&lt;KeyEvent>() {
+		    public void handle(KeyEvent ke) {
+		    	// To check if the user pressed delete or backspace (in order to delete a character for a guess)
+		    	if (ke.getCode().equals(KeyCode.DELETE) || ke.getCode().equals(KeyCode.BACK_SPACE)) {
+		    		if (curGuess.length() > 0) {
+			    		inputLabel[controler.getNumGuessesMade()][curGuess.length() - 1]
+				    			.setText(&quot;&quot;);
+			    		curGuess = curGuess.substring(0, curGuess.length() - 1);
+			    		stage.show();
+		    		}
+		    	// To check if the user pressed enter (in order to enter a guess)
+		    	} else if (ke.getCode().equals(KeyCode.ENTER)) { 
+		    		try {
+						controler.makeGuess(curGuess);
+						curGuess = &quot;&quot;;
+					} catch (InvalidGuessException e) {
+						invalidInput(e.getLocalizedMessage());
+					}
+		    		
+		    		
+		    	// gets the character entered from the keyboard and checks its a letter 
+		    	// also check that their arnt the max number of letters entered already
+		    	} else if (ke.getCode().getName().matches(&quot;[a-zA-Z]+&quot;) &amp; 
+		    			(curGuess.length() &lt; controler.getWordLength()) &amp;
+		    			ke.getCode() != KeyCode.SHIFT) {
+			    	curGuess += ke.getCode().getName();
+			    	inputLabel[controler.getNumGuessesMade()][curGuess.length() - 1]
+			    			.setText(ke.getCode().getName());
+					stage.show();
+		    	} else {}
+		    }
+		});
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2lR8LyMEeyJdIl06y8pew" name="invalidInput" specification="_su2SQLyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2lR8byMEeyJdIl06y8pew" name="error">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; controler.getWordLength(); i++) {
+			inputLabel[controler.getNumGuessesMade()][i].setBackground(BACKGROUND_GREY);
+		}
+		Alert popup = new Alert(Alert.AlertType.INFORMATION);
+		popup.setTitle(&quot;Wordle!&quot;);
+		popup.setHeaderText(&quot;&quot;);
+		popup.setContentText(error);
+		popup.showAndWait();
+		PauseTransition pause = new PauseTransition(Duration.seconds(.15));
+		pause.setOnFinished(event -> {
+			for (int i = 0; i &lt; controler.getWordLength(); i++) {
+				inputLabel[controler.getNumGuessesMade()][i].setBackground(BACKGROUND_WHITE);
+				this.vbox.getChildren().set(0, new Label());
+				stage.show();
+			}
+		});
+		pause.play(); 
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2lR8ryMEeyJdIl06y8pew" name="createGrid" specification="_su25ULyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2lR87yMEeyJdIl06y8pew" type="_s1d3obyMEeyJdIl06y8pew" direction="return"/>
+          <language>java</language>
+          <body>GridPane grid = new GridPane();					// creates new GridPane
+		grid.setHgap(GRID_GAP);							// sets horizontal gap in grid
+		grid.setVgap(GRID_GAP);							// sets vertical gap in grid
+		grid.setBackground(BACKGROUND_WHITE);			// sets back ground color
+		grid.setAlignment(Pos.CENTER);					// sets position
+		return grid;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2lR9LyMEeyJdIl06y8pew" name="createLabel" specification="_s16jkbyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2lR9byMEeyJdIl06y8pew" name="letter">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_s2lR9ryMEeyJdIl06y8pew" name="boxSize">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_s2lR97yMEeyJdIl06y8pew" name="fontSize">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_s2lR-LyMEeyJdIl06y8pew" name="color" type="_s1ZmMbyMEeyJdIl06y8pew"/>
+          <ownedParameter xmi:id="_s2lR-byMEeyJdIl06y8pew" name="border">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_s2lR-ryMEeyJdIl06y8pew" type="_s1XxAbyMEeyJdIl06y8pew" direction="return"/>
+          <language>java</language>
+          <body>Label label = new Label(letter); 				// creates new label
+		label.setMinHeight(boxSize);					// sets height of label
+		label.setMinWidth(boxSize);						// sets width of label
+		label.setAlignment(Pos.TOP_CENTER);				// sets text position
+		label.setFont(new Font(fontSize));				// sets font size
+		label.setTextFill(Paint.valueOf(&quot;black&quot;));		// sets font color
+		label.setBackground(color);						// sets background color
+		if (border) {
+			label.setBorder(new Border(new BorderStroke(Color.rgb(0, 0, 0, 1), 
+				BorderStrokeStyle.SOLID, new CornerRadii(5.0), new BorderWidths(.5))));
+		}
+		return label;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2l5ALyMEeyJdIl06y8pew" name="update" specification="_s17xsbyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2l5AbyMEeyJdIl06y8pew" name="o" type="_suklcLyMEeyJdIl06y8pew"/>
+          <ownedParameter xmi:id="_s2l5AryMEeyJdIl06y8pew" name="arg" type="_s17Ko7yMEeyJdIl06y8pew"/>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; 25; i++) {
+			if (controler.getGuessedChars()[i] != null &amp; this.alphabet != null) {
+				if (controler.getGuessedChars()[i] == INDEX_RESULT.CORRECT) {
+					alphabet[i].setBackground(BACKGROUND_GREEN);
+				} else if (controler.getGuessedChars()[i] == INDEX_RESULT.CORRECT_WRONG_INDEX) {
+					alphabet[i].setBackground(BACKGROUND_YELLOW);
+				} else {
+					alphabet[i].setBackground(BACKGROUND_RED);
+				}
+			}
+		}
+		
+		for (int y = 0; y &lt; this.model.getNumGuessesMade(); y++) {
+			for (int x = 0; x &lt; this.model.getWordLength(); x++) {
+				if (model.getProgress()[y].getIndices()[x] == INDEX_RESULT.CORRECT) {
+					this.inputLabel[y][x].setBackground(BACKGROUND_GREEN);
+				} else if (model.getProgress()[y].getIndices()[x] == INDEX_RESULT.CORRECT_WRONG_INDEX) {
+					this.inputLabel[y][x].setBackground(BACKGROUND_YELLOW);
+				} else {
+					this.inputLabel[y][x].setBackground(BACKGROUND_RED);
+				}
+			}
+		}
+		stage.show();	
+		if (this.controler.isGameOver()) {
+			Alert popup = new Alert(Alert.AlertType.INFORMATION);
+			popup.setTitle(&quot;Wordle!&quot;);
+			if (this.controler.getProgress()[controler.getNumGuessesMade() - 1].getIsCorrect()) {
+				gameWinAnimation(this.controler.getNumGuessesMade() - 1);
+				popup.setY(90 * this.controler.getNumGuessesMade() + 90);
+				popup.setX(550);
+				popup.setHeaderText(&quot;Congratulations You Guessed The Word Correctly!!!&quot;);
+				popup.setContentText(&quot;Correct Word: &quot; + controler.getAnswer());
+				popup.showAndWait();
+			} else {
+				popup.setHeaderText(&quot;Sorry You Are Out Of Guesses Better Luck Next Time.&quot;);
+				popup.setContentText(&quot;Correct Word: &quot; + controler.getAnswer());
+				popup.showAndWait();
+			}
+			
+			Alert playAgain = new Alert(Alert.AlertType.CONFIRMATION);
+			playAgain.setTitle(&quot;Wordle&quot;);
+			playAgain.setHeaderText(&quot;Would You Like To Play Again&quot;);
+			playAgain.setContentText(&quot;&quot;);
+			playAgain.getButtonTypes().set(0, ButtonType.YES);
+			playAgain.getButtonTypes().set(1, ButtonType.NO);
+			
+			Optional&lt;ButtonType> result = playAgain.showAndWait();
+			ButtonType button = result.orElse(ButtonType.CANCEL);
+
+			if (button == ButtonType.YES) {
+			    stage.close();
+			    try {
+					this.start(new Stage());
+				} catch (FileNotFoundException e) {}
+			} else {
+				stage.close();
+				System.exit(0);
+			}
+		}		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2l5A7yMEeyJdIl06y8pew" name="gameWinAnimation" specification="_su4HcLyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2l5BLyMEeyJdIl06y8pew" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>RotateTransition[] rotate = new RotateTransition[this.controler.getNumOfGuesses()];
+		for (int i = 0; i &lt; this.controler.getWordLength(); i++) {
+			rotate[i] = new RotateTransition();
+			rotate[i].setNode(this.inputLabel[row][i]);
+		    rotate[i].setByAngle(360); 
+			rotate[i].play();
+		}
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_su2SQLyMEeyJdIl06y8pew" name="invalidInput" visibility="private" method="_s2lR8LyMEeyJdIl06y8pew">
+          <ownedComment xmi:id="_s2o8U7yMEeyJdIl06y8pew">
+            <body>Creates alert telling user and error occured.
+	* 
+	* Animates current row turning gray and alerts users as to what was wrong with their guess.
+	* 
+	* @param String error:</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_su2SQbyMEeyJdIl06y8pew" name="error">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_su25ULyMEeyJdIl06y8pew" name="createGrid" visibility="private" method="_s2lR8ryMEeyJdIl06y8pew">
+          <ownedComment xmi:id="_s2o8VLyMEeyJdIl06y8pew">
+            <body>Creates a grid pane.
+	* 
+	* the grid panes height, width and background color all come from constants in class
+	* 
+	* @return Gridpane</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_s16jkLyMEeyJdIl06y8pew" type="_s1d3obyMEeyJdIl06y8pew" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_su4HcLyMEeyJdIl06y8pew" name="gameWinAnimation" visibility="private" method="_s2l5A7yMEeyJdIl06y8pew">
+          <ownedComment xmi:id="_s2o8VryMEeyJdIl06y8pew">
+            <body>Causes all labels in given row to rotate
+	 * 
+	 * Create a rotation trasition and applies it to given row in this.Label
+	 * 
+	 * @param int row signifies which row to apply animation to</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_su4ugLyMEeyJdIl06y8pew" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_s14uYLyMEeyJdIl06y8pew" name="start" method="_s2kq4ryMEeyJdIl06y8pew" raisedException="_s1CZ0byMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s14uYbyMEeyJdIl06y8pew" name="stage" type="_s1jXMLyMEeyJdIl06y8pew"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_s16jkbyMEeyJdIl06y8pew" name="createLabel" visibility="private" isStatic="true" method="_s2lR9LyMEeyJdIl06y8pew">
+          <ownedComment xmi:id="_s2o8VbyMEeyJdIl06y8pew">
+            <body>Creates a label.
+	* 
+	* creates a label based on the parameters given
+	* 
+	* @param String letter, int boxSize, int fontSize, Background color, boolean border
+	* 
+	* @return Label</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_s16jkryMEeyJdIl06y8pew" name="letter">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_s16jk7yMEeyJdIl06y8pew" name="boxSize">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_s16jlLyMEeyJdIl06y8pew" name="fontSize">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_s17KoLyMEeyJdIl06y8pew" name="color" type="_s1ZmMbyMEeyJdIl06y8pew"/>
+          <ownedParameter xmi:id="_s17KobyMEeyJdIl06y8pew" name="border">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_s17KoryMEeyJdIl06y8pew" type="_s1XxAbyMEeyJdIl06y8pew" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_s17xsbyMEeyJdIl06y8pew" name="update" method="_s2l5ALyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s18YwLyMEeyJdIl06y8pew" name="o" type="_suklcLyMEeyJdIl06y8pew"/>
+          <ownedParameter xmi:id="_s18YwbyMEeyJdIl06y8pew" name="arg" type="_s17Ko7yMEeyJdIl06y8pew"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_su-OELyMEeyJdIl06y8pew" name="WordleTextView">
+        <ownedAttribute xmi:id="_s2S-ELyMEeyJdIl06y8pew" name="model" visibility="private" type="_sud3wLyMEeyJdIl06y8pew" association="_s24M4byMEeyJdIl06y8pew"/>
+        <ownedAttribute xmi:id="_s2TlIbyMEeyJdIl06y8pew" name="controler" visibility="private" type="_suOAILyMEeyJdIl06y8pew" association="_s25bALyMEeyJdIl06y8pew"/>
+        <ownedAttribute xmi:id="_s2TlI7yMEeyJdIl06y8pew" name="playerGuess" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_s1-N8LyMEeyJdIl06y8pew" client="_su-OELyMEeyJdIl06y8pew" supplier="_s1Dn8byMEeyJdIl06y8pew" contract="_s1Dn8byMEeyJdIl06y8pew"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2mgELyMEeyJdIl06y8pew" name="play" specification="_su_cMLyMEeyJdIl06y8pew">
+          <language>java</language>
+          <body>this.model = new WordleModel();
+		this.controler = new WordleController(model);
+		this.model.addObserver(this);
+		
+		// used for getting and storing user input
+		Scanner playerInput = new Scanner(System.in);  
+		this.playerGuess = &quot;&quot;;
+		
+		// used to check if user has entered a valid guess
+		boolean waitingForGuess = true;
+		
+		// repeats until game ends
+		while (this.controler.isGameOver() == false) {
+			
+			// resets
+			waitingForGuess = true;
+					
+			// repeats until player intputs a valid guess
+			while (waitingForGuess) {
+				
+				System.out.print(&quot;Enter a guess: &quot;);
+				playerGuess = playerInput.nextLine();
+				try {
+					this.controler.makeGuess(playerGuess.toUpperCase());
+					waitingForGuess = false;
+				} catch (InvalidGuessException e) {
+					System.out.println(e.getLocalizedMessage());
+				}
+			}
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2mgEbyMEeyJdIl06y8pew" name="update" specification="_s1-1ALyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2mgEryMEeyJdIl06y8pew" name="o" type="_suklcLyMEeyJdIl06y8pew"/>
+          <ownedParameter xmi:id="_s2mgE7yMEeyJdIl06y8pew" name="arg" type="_s17Ko7yMEeyJdIl06y8pew"/>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; this.controler.getNumOfGuesses(); i++) {
+			if (this.controler.getProgress()[i] != null) {
+				// iterates through current guess
+				for (int x = 0; x &lt; this.controler.getWordLength(); x++) {
+					if (this.controler.getProgress()[i].getIndices()[x] == 
+							INDEX_RESULT.CORRECT) {
+						System.out.print(
+								Character.toUpperCase(
+										this.controler.getProgress()[i].getGuess().charAt(x)) + &quot; &quot;);
+					} else if (this.controler.getProgress()[i].getIndices()[x] == 
+							INDEX_RESULT.CORRECT_WRONG_INDEX) {
+						System.out.print(
+								Character.toLowerCase(
+										this.controler.getProgress()[i].getGuess().charAt(x)) + &quot; &quot;);
+					} else {
+						System.out.print(&quot;_ &quot;);
+					}
+				}
+				System.out.println();
+			} else {
+				// iterates for length of word
+				for (int x = 0; x &lt; this.controler.getWordLength(); x++) {
+					System.out.print(&quot;_ &quot;);
+				}
+				System.out.println();
+			}
+		}
+		
+		boolean incorrect = false;
+		boolean almostCorrect = false;
+		boolean correct = false;
+		
+		// prints unguessed characters
+		System.out.print(&quot;Unguessed: &quot;);
+		for (int i = 0; i &lt; 26 ; i++) {
+			// if cur value is null means the letter has not been guessed
+			if (this.controler.getGuessedChars()[i] == null) {
+				// i offsets the ascii value of 'A' to current char
+				System.out.print((char)('A' + i) + &quot; &quot;);
+			// if cur value is not null check whether any correct incorrect or almost letters
+			// have been guessed
+			} else {
+				if (this.controler.getGuessedChars()[i] == INDEX_RESULT.CORRECT) {
+					correct = true;
+				} else if (this.controler.getGuessedChars()[i] == INDEX_RESULT.CORRECT_WRONG_INDEX) {
+					almostCorrect = true;
+				} else {
+					incorrect = true;
+				}
+			}
+		}
+		System.out.println();
+		
+		// if any Incorrect letters have been guessed prints them
+		if (incorrect) {
+			System.out.print(&quot;Incorrect: &quot;);
+			printIndexType(this.controler.getGuessedChars(),
+					INDEX_RESULT.INCORRECT);
+		}
+		
+		// if any correct letters have been guessed prints them
+		if (correct) {
+			System.out.print(&quot;Correct: &quot;);
+			printIndexType(this.controler.getGuessedChars(),
+					INDEX_RESULT.CORRECT);
+		}
+		
+		// if any correct letters have been guessed prints them
+		if (almostCorrect) {
+			System.out.print(&quot;Correct letter, wrong index: &quot;);
+			printIndexType(this.controler.getGuessedChars(),
+					INDEX_RESULT.CORRECT_WRONG_INDEX);
+		}
+		System.out.println(&quot;\n&quot;);
+		
+		if (this.controler.isGameOver()) {
+			// checks why game ended
+			if (this.controler.getAnswer().equals(playerGuess.toUpperCase())) {
+				System.out.print(&quot;You guessed the correct word CONGRATULATIONS.\n&quot;);
+			} else {
+				System.out.print(&quot;Sorry but you are out of guesses better luck next time.\n&quot;);
+			}
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_s2mgFLyMEeyJdIl06y8pew" name="printIndexType" specification="_s1r6ELyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s2mgFbyMEeyJdIl06y8pew" name="indices" type="_suqsELyMEeyJdIl06y8pew">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s2mgFryMEeyJdIl06y8pew" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_s2mgF7yMEeyJdIl06y8pew" name="desiredType" type="_suqsELyMEeyJdIl06y8pew"/>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; 26; i++) {
+			// if cur value is not null and almost correct
+			if (indices[i] != null &amp; 
+					indices[i] == desiredType) {
+				// i offsets the ascii value of 'A' to current char
+				System.out.print((char)('A' + i) + &quot; &quot;);
+			}
+		}
+		System.out.println();
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_su_cMLyMEeyJdIl06y8pew" name="play" method="_s2mgELyMEeyJdIl06y8pew" raisedException="_s1CZ0byMEeyJdIl06y8pew">
+          <ownedComment xmi:id="_s2pjYLyMEeyJdIl06y8pew">
+            <body>Starts a game of wordle using text base ui
+	 * 
+	 * Takes in user input and passes it off to WordleControler untill game has ended
+	 * 
+	 * @throws FileNotFoundException throws error if Dictionary.txt missing</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_s1r6ELyMEeyJdIl06y8pew" name="printIndexType" isStatic="true" method="_s2mgFLyMEeyJdIl06y8pew">
+          <ownedComment xmi:id="_s2pjYbyMEeyJdIl06y8pew">
+            <body>prints all INDEX_RESULTS from an array of a specific type
+	 * 
+	 * Prints the letter val of indices of the desiredType.
+	 * 
+	 * @param INDEX_RESULT[] indices , INDEX_RESULT desiredType</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_s1shILyMEeyJdIl06y8pew" name="indices" type="_suqsELyMEeyJdIl06y8pew">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s1tIMLyMEeyJdIl06y8pew" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_s1shIbyMEeyJdIl06y8pew" name="desiredType" type="_suqsELyMEeyJdIl06y8pew"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_s1-1ALyMEeyJdIl06y8pew" name="update" method="_s2mgEbyMEeyJdIl06y8pew">
+          <ownedParameter xmi:id="_s1-1AbyMEeyJdIl06y8pew" name="o" type="_suklcLyMEeyJdIl06y8pew"/>
+          <ownedParameter xmi:id="_s1-1AryMEeyJdIl06y8pew" name="arg" type="_s17Ko7yMEeyJdIl06y8pew"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_s2w4IbyMEeyJdIl06y8pew" name="" memberEnd="_s2w4IryMEeyJdIl06y8pew _s2OFkbyMEeyJdIl06y8pew">
+        <ownedEnd xmi:id="_s2w4IryMEeyJdIl06y8pew" name="" type="_suyn4LyMEeyJdIl06y8pew" association="_s2w4IbyMEeyJdIl06y8pew"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_s2xfMbyMEeyJdIl06y8pew" name="" memberEnd="_s2xfMryMEeyJdIl06y8pew _s2OFk7yMEeyJdIl06y8pew">
+        <ownedEnd xmi:id="_s2xfMryMEeyJdIl06y8pew" name="" type="_suyn4LyMEeyJdIl06y8pew" association="_s2xfMbyMEeyJdIl06y8pew"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_s2ytULyMEeyJdIl06y8pew" name="" memberEnd="_s2ytUbyMEeyJdIl06y8pew _s2OsoLyMEeyJdIl06y8pew">
+        <ownedEnd xmi:id="_s2ytUbyMEeyJdIl06y8pew" name="" type="_suyn4LyMEeyJdIl06y8pew" association="_s2ytULyMEeyJdIl06y8pew"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_s2ytU7yMEeyJdIl06y8pew" name="" memberEnd="_s2ytVLyMEeyJdIl06y8pew _s2OsoryMEeyJdIl06y8pew">
+        <ownedEnd xmi:id="_s2ytVLyMEeyJdIl06y8pew" name="" type="_suyn4LyMEeyJdIl06y8pew" association="_s2ytU7yMEeyJdIl06y8pew"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_s2zUYbyMEeyJdIl06y8pew" name="" memberEnd="_s2zUYryMEeyJdIl06y8pew _s2OspLyMEeyJdIl06y8pew">
+        <ownedEnd xmi:id="_s2zUYryMEeyJdIl06y8pew" name="" type="_suyn4LyMEeyJdIl06y8pew" association="_s2zUYbyMEeyJdIl06y8pew"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_s2z7cbyMEeyJdIl06y8pew" name="" memberEnd="_s2z7cryMEeyJdIl06y8pew _s2PTsbyMEeyJdIl06y8pew">
+        <ownedEnd xmi:id="_s2z7cryMEeyJdIl06y8pew" name="" type="_suyn4LyMEeyJdIl06y8pew" association="_s2z7cbyMEeyJdIl06y8pew"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_s20igbyMEeyJdIl06y8pew" name="" memberEnd="_s20igryMEeyJdIl06y8pew _s2P6wbyMEeyJdIl06y8pew">
+        <ownedEnd xmi:id="_s20igryMEeyJdIl06y8pew" name="" type="_suyn4LyMEeyJdIl06y8pew" association="_s20igbyMEeyJdIl06y8pew"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_s21JkbyMEeyJdIl06y8pew" name="" memberEnd="_s21JkryMEeyJdIl06y8pew _s2Qh07yMEeyJdIl06y8pew">
+        <ownedEnd xmi:id="_s21JkryMEeyJdIl06y8pew" name="" type="_suyn4LyMEeyJdIl06y8pew" association="_s21JkbyMEeyJdIl06y8pew"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_s22XsLyMEeyJdIl06y8pew" name="" memberEnd="_s22XsbyMEeyJdIl06y8pew _s2RI4byMEeyJdIl06y8pew">
+        <ownedEnd xmi:id="_s22XsbyMEeyJdIl06y8pew" name="" type="_suyn4LyMEeyJdIl06y8pew" association="_s22XsLyMEeyJdIl06y8pew"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_s22-wLyMEeyJdIl06y8pew" name="" memberEnd="_s22-wbyMEeyJdIl06y8pew _s2RI47yMEeyJdIl06y8pew">
+        <ownedEnd xmi:id="_s22-wbyMEeyJdIl06y8pew" name="" type="_suyn4LyMEeyJdIl06y8pew" association="_s22-wLyMEeyJdIl06y8pew"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_s23l0byMEeyJdIl06y8pew" name="" memberEnd="_s23l0ryMEeyJdIl06y8pew _s2Rv8byMEeyJdIl06y8pew">
+        <ownedEnd xmi:id="_s23l0ryMEeyJdIl06y8pew" name="" type="_suyn4LyMEeyJdIl06y8pew" association="_s23l0byMEeyJdIl06y8pew"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_s24M4byMEeyJdIl06y8pew" name="" memberEnd="_s24M4ryMEeyJdIl06y8pew _s2S-ELyMEeyJdIl06y8pew">
+        <ownedEnd xmi:id="_s24M4ryMEeyJdIl06y8pew" name="" type="_su-OELyMEeyJdIl06y8pew" association="_s24M4byMEeyJdIl06y8pew"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_s25bALyMEeyJdIl06y8pew" name="" memberEnd="_s25bAbyMEeyJdIl06y8pew _s2TlIbyMEeyJdIl06y8pew">
+        <ownedEnd xmi:id="_s25bAbyMEeyJdIl06y8pew" name="" type="_su-OELyMEeyJdIl06y8pew" association="_s25bALyMEeyJdIl06y8pew"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_D8k9ILyNEeyJdIl06y8pew" name="NewClass1"/>
+    <profileApplication xmi:id="_sdSoMLyMEeyJdIl06y8pew">
+      <eAnnotations xmi:id="_sdVEcLyMEeyJdIl06y8pew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_sdYHwLyMEeyJdIl06y8pew" base_Package="_sSGr4LyMEeyJdIl06y8pew">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Array xmi:id="_suZmU7yMEeyJdIl06y8pew" base_Element="_suZmULyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Array xmi:id="_subbgLyMEeyJdIl06y8pew" base_Element="_suaNYLyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Array xmi:id="_suiwQbyMEeyJdIl06y8pew" base_Element="_suiJM7yMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_sulMgLyMEeyJdIl06y8pew" base_Element="_suklcLyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s07sILyMEeyJdIl06y8pew" base_Element="_s06eALyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1CZ0LyMEeyJdIl06y8pew" base_Element="_s1BLsLyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1Dn8LyMEeyJdIl06y8pew" base_Element="_s1CZ0byMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1E2ELyMEeyJdIl06y8pew" base_Element="_s1Dn8byMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1GEMLyMEeyJdIl06y8pew" base_Element="_s1E2EbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1Mx4LyMEeyJdIl06y8pew" base_Element="_s1MK0LyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1POILyMEeyJdIl06y8pew" base_Element="_s1OAALyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1QcQLyMEeyJdIl06y8pew" base_Element="_s1POIbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1RDULyMEeyJdIl06y8pew" base_Element="_s1QcQbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1SRcLyMEeyJdIl06y8pew" base_Element="_s1RqYLyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1TfkLyMEeyJdIl06y8pew" base_Element="_s1S4gLyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1UGoLyMEeyJdIl06y8pew" base_Element="_s1TfkbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1UtsLyMEeyJdIl06y8pew" base_Element="_s1UGobyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1VUwLyMEeyJdIl06y8pew" base_Element="_s1UtsbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1V70byMEeyJdIl06y8pew" base_Element="_s1V70LyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1Wi4LyMEeyJdIl06y8pew" base_Element="_s1V70ryMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1XJ8LyMEeyJdIl06y8pew" base_Element="_s1Wi4byMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1XxALyMEeyJdIl06y8pew" base_Element="_s1XJ8byMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1YYELyMEeyJdIl06y8pew" base_Element="_s1XxAbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1Y_ILyMEeyJdIl06y8pew" base_Element="_s1YYEbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1ZmMLyMEeyJdIl06y8pew" base_Element="_s1Y_IbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1aNQLyMEeyJdIl06y8pew" base_Element="_s1ZmMbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1a0ULyMEeyJdIl06y8pew" base_Element="_s1aNQbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1bbYLyMEeyJdIl06y8pew" base_Element="_s1a0UbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1bbYryMEeyJdIl06y8pew" base_Element="_s1bbYbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1cCcbyMEeyJdIl06y8pew" base_Element="_s1cCcLyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1cpgLyMEeyJdIl06y8pew" base_Element="_s1cCcryMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1d3oLyMEeyJdIl06y8pew" base_Element="_s1dQkLyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1eesLyMEeyJdIl06y8pew" base_Element="_s1d3obyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1eesryMEeyJdIl06y8pew" base_Element="_s1eesbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1fs0LyMEeyJdIl06y8pew" base_Element="_s1ees7yMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1fs0ryMEeyJdIl06y8pew" base_Element="_s1fs0byMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1gT4LyMEeyJdIl06y8pew" base_Element="_s1fs07yMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1g68LyMEeyJdIl06y8pew" base_Element="_s1gT4byMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1hiALyMEeyJdIl06y8pew" base_Element="_s1g68byMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1iJELyMEeyJdIl06y8pew" base_Element="_s1hiAbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1iwILyMEeyJdIl06y8pew" base_Element="_s1iJEbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1j-QLyMEeyJdIl06y8pew" base_Element="_s1jXMLyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1klULyMEeyJdIl06y8pew" base_Element="_s1j-QbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s1xZoryMEeyJdIl06y8pew" base_Element="_s1xZobyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s15VcLyMEeyJdIl06y8pew" base_Element="_s14uYLyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Annotations xmi:id="_s158gLyMEeyJdIl06y8pew" base_Element="_s14uYLyMEeyJdIl06y8pew">
+    <annotations xmi:id="_s158gbyMEeyJdIl06y8pew" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_s17xsLyMEeyJdIl06y8pew" base_Element="_s17Ko7yMEeyJdIl06y8pew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s18YwryMEeyJdIl06y8pew" base_Element="_s17xsbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Annotations xmi:id="_s18Yw7yMEeyJdIl06y8pew" base_Element="_s17xsbyMEeyJdIl06y8pew">
+    <annotations xmi:id="_s18YxLyMEeyJdIl06y8pew" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s1_cELyMEeyJdIl06y8pew" base_Element="_s1-1ALyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Annotations xmi:id="_s1_cEbyMEeyJdIl06y8pew" base_Element="_s1-1ALyMEeyJdIl06y8pew">
+    <annotations xmi:id="_s1_cEryMEeyJdIl06y8pew" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s2CfYLyMEeyJdIl06y8pew" base_Element="_s2B4ULyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s2DGcbyMEeyJdIl06y8pew" base_Element="_s2DGcLyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s2DGc7yMEeyJdIl06y8pew" base_Element="_s2DGcryMEeyJdIl06y8pew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s2E7obyMEeyJdIl06y8pew" base_Element="_s2EUkbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s2FisLyMEeyJdIl06y8pew" base_Element="_s2E7oryMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Array xmi:id="_s2GJwLyMEeyJdIl06y8pew" base_Element="_s2FisbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Array xmi:id="_s2GJw7yMEeyJdIl06y8pew" base_Element="_s2GJwbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s2Gw0LyMEeyJdIl06y8pew" base_Element="_s2GJwbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Array xmi:id="_s2Gw07yMEeyJdIl06y8pew" base_Element="_s2Gw0byMEeyJdIl06y8pew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s2Gw1LyMEeyJdIl06y8pew" base_Element="_s2Gw0byMEeyJdIl06y8pew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s2H-8LyMEeyJdIl06y8pew" base_Element="_s2HX4ryMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Array xmi:id="_s2ImA7yMEeyJdIl06y8pew" base_Element="_s2ImAbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s2JNEbyMEeyJdIl06y8pew" base_Element="_s2JNELyMEeyJdIl06y8pew">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_s2J0ILyMEeyJdIl06y8pew" name="getIsCorrect" method="_s2i1sLyMEeyJdIl06y8pew">
+      <ownedParameter xmi:id="_s2J0IbyMEeyJdIl06y8pew" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Array xmi:id="_s2PTs7yMEeyJdIl06y8pew" dimensions="2" base_Element="_s2PTsbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s2P6wLyMEeyJdIl06y8pew" base_Element="_s2PTsbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Array xmi:id="_s2Qh0byMEeyJdIl06y8pew" base_Element="_s2P6wbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s2Qh0ryMEeyJdIl06y8pew" base_Element="_s2P6wbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s2RI4LyMEeyJdIl06y8pew" base_Element="_s2Qh07yMEeyJdIl06y8pew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s2RI4ryMEeyJdIl06y8pew" base_Element="_s2RI4byMEeyJdIl06y8pew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s2Rv8LyMEeyJdIl06y8pew" base_Element="_s2RI47yMEeyJdIl06y8pew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s2Rv8ryMEeyJdIl06y8pew" base_Element="_s2Rv8byMEeyJdIl06y8pew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s2Rv9LyMEeyJdIl06y8pew" base_Element="_s2Rv87yMEeyJdIl06y8pew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s2TlILyMEeyJdIl06y8pew" base_Element="_s2S-ELyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s2TlIryMEeyJdIl06y8pew" base_Element="_s2TlIbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_s2UMMLyMEeyJdIl06y8pew" base_Element="_s2TlI7yMEeyJdIl06y8pew"/>
+  <uml:OpaqueBehavior xmi:id="_s2i1sLyMEeyJdIl06y8pew" name="getIsCorrect" specification="_s2J0ILyMEeyJdIl06y8pew">
+    <ownedParameter xmi:id="_s2i1sbyMEeyJdIl06y8pew" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return this.isCorrect;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_s2jcxryMEeyJdIl06y8pew" name="INDEX_RESULT" specification="_sutIULyMEeyJdIl06y8pew">
+    <ownedParameter xmi:id="_s2kD0LyMEeyJdIl06y8pew" name="description">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <ownedParameter xmi:id="_s2kD0byMEeyJdIl06y8pew" type="_suqsELyMEeyJdIl06y8pew" direction="return"/>
+    <language>java</language>
+    <body>this.description = description;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_s2wRELyMEeyJdIl06y8pew" base_Element="_s2vC8LyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s2w4ILyMEeyJdIl06y8pew" base_Element="_s2wREbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s2xfMLyMEeyJdIl06y8pew" base_Element="_s2w4IbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s2yGQLyMEeyJdIl06y8pew" base_Element="_s2xfMbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s2ytUryMEeyJdIl06y8pew" base_Element="_s2ytULyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s2zUYLyMEeyJdIl06y8pew" base_Element="_s2ytU7yMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s2z7cLyMEeyJdIl06y8pew" base_Element="_s2zUYbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s20igLyMEeyJdIl06y8pew" base_Element="_s2z7cbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s21JkLyMEeyJdIl06y8pew" base_Element="_s20igbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s21woLyMEeyJdIl06y8pew" base_Element="_s21JkbyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s22XsryMEeyJdIl06y8pew" base_Element="_s22XsLyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s23l0LyMEeyJdIl06y8pew" base_Element="_s22-wLyMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s24M4LyMEeyJdIl06y8pew" base_Element="_s23l0byMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s24z8LyMEeyJdIl06y8pew" base_Element="_s24M4byMEeyJdIl06y8pew"/>
+  <UMLLabProfile:Reference xmi:id="_s25bAryMEeyJdIl06y8pew" base_Element="_s25bALyMEeyJdIl06y8pew"/>
+</xmi:XMI>

@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_sUqQoLyMEeyJdIl06y8pew">
+  <modelElement href="csc335-project4-WestLaos.uml#_sSGr4LyMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tA65sLyMEeyJdIl06y8pew" targetItem="_tBGf8ryMEeyJdIl06y8pew" sourceItem="_tA6SoLyMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tA7gwbyMEeyJdIl06y8pew" targetItem="_tBGf97yMEeyJdIl06y8pew" sourceItem="_tA7gwLyMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tA8H0byMEeyJdIl06y8pew" targetItem="_tBGf_LyMEeyJdIl06y8pew" sourceItem="_tA8H0LyMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tA8u4byMEeyJdIl06y8pew" targetItem="_tBGgAryMEeyJdIl06y8pew" sourceItem="_tA8u4LyMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tA8u47yMEeyJdIl06y8pew" targetItem="_tBGgB7yMEeyJdIl06y8pew" sourceItem="_tA8u4ryMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tA9V8byMEeyJdIl06y8pew" targetItem="_tBGgDLyMEeyJdIl06y8pew" sourceItem="_tA9V8LyMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tA9V87yMEeyJdIl06y8pew" targetItem="_tBGgEbyMEeyJdIl06y8pew" sourceItem="_tA9V8ryMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tA_LIbyMEeyJdIl06y8pew" targetItem="_tBGgF7yMEeyJdIl06y8pew" sourceItem="_tA_LILyMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tBFRwLyMEeyJdIl06y8pew" sourceAnchor="230.0,0.0" targetAnchor="376.0,208.0" target="_tCiDQLyMEeyJdIl06y8pew" source="_tBGf4LyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2vC8LyMEeyJdIl06y8pew"/>
+    <bendpoints xmi:id="_tNOQULyMEeyJdIl06y8pew" sourceY="-262" targetX="295"/>
+    <stereotypes xmi:id="_tBFRwbyMEeyJdIl06y8pew" name="Reference">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2wRELyMEeyJdIl06y8pew"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tBFRwryMEeyJdIl06y8pew" text="">
+      <visualProperties xmi:id="_tNQFgLyMEeyJdIl06y8pew" position="-11.002528575909423,120.746216805236"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tBFRw7yMEeyJdIl06y8pew" aggregationKind="NONE" name="">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2vC8byMEeyJdIl06y8pew"/>
+      <visualProperties xmi:id="_tNPec7yMEeyJdIl06y8pew" position="1.970422430229462,-72.24193420676824"/>
+      <visibility xmi:id="_tBF40LyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tBF40byMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tBF40ryMEeyJdIl06y8pew" aggregationKind="NONE" name="model" navigable="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2DGcryMEeyJdIl06y8pew"/>
+      <visualProperties xmi:id="_tNQskLyMEeyJdIl06y8pew" position="275.27816592366895,29.719904602109352"/>
+      <visibility xmi:id="_tBF407yMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tBF41LyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tCV2AbyMEeyJdIl06y8pew" targetItem="_tCXrMLyMEeyJdIl06y8pew" sourceItem="_tCV2ALyMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tCbVkLyMEeyJdIl06y8pew" sourceAnchor="188.0,0.0" targetAnchor="287.0,139.0" target="_tC_WQLyMEeyJdIl06y8pew" source="_tCiDQLyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2wREbyMEeyJdIl06y8pew"/>
+    <stereotypes xmi:id="_tCgOEbyMEeyJdIl06y8pew" name="Reference">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2w4ILyMEeyJdIl06y8pew"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tCfnALyMEeyJdIl06y8pew" text="">
+      <visualProperties xmi:id="_tNRToLyMEeyJdIl06y8pew" position="-25.85165666289427,-65.67774652808635"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tCfnAbyMEeyJdIl06y8pew" aggregationKind="NONE" name="">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2wREryMEeyJdIl06y8pew"/>
+      <visualProperties xmi:id="_tNQskbyMEeyJdIl06y8pew" position="-17.526552327130617,-72.13737000270567"/>
+      <visibility xmi:id="_tCg1IbyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tCg1ILyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tCgOELyMEeyJdIl06y8pew" aggregationKind="NONE" name="progress" navigable="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2GJwbyMEeyJdIl06y8pew"/>
+      <visualProperties xmi:id="_tNRTobyMEeyJdIl06y8pew" position="-46.956440389007184,-99.14581656885139"/>
+      <visibility xmi:id="_tCg1I7yMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tCg1IryMEeyJdIl06y8pew" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tCb8obyMEeyJdIl06y8pew" targetItem="_tCiDdbyMEeyJdIl06y8pew" sourceItem="_tCb8oLyMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tCdKwLyMEeyJdIl06y8pew" targetItem="_tCiDeryMEeyJdIl06y8pew" sourceItem="_tCcjsLyMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tCdKwryMEeyJdIl06y8pew" targetItem="_tCiDg7yMEeyJdIl06y8pew" sourceItem="_tCdKwbyMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tCdx0byMEeyJdIl06y8pew" targetItem="_tCiDibyMEeyJdIl06y8pew" sourceItem="_tCdx0LyMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tCdx07yMEeyJdIl06y8pew" targetItem="_tCiDkbyMEeyJdIl06y8pew" sourceItem="_tCdx0ryMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tCeY4LyMEeyJdIl06y8pew" targetItem="_tCiDlryMEeyJdIl06y8pew" sourceItem="_tCdx1LyMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tCeY4ryMEeyJdIl06y8pew" targetItem="_tCiDm7yMEeyJdIl06y8pew" sourceItem="_tCeY4byMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tDN_wLyMEeyJdIl06y8pew" sourceAnchor="543.0,0.0" targetAnchor="188.0,415.0" target="_tCiDQLyMEeyJdIl06y8pew" source="_tDoPebyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s22-wLyMEeyJdIl06y8pew"/>
+    <stereotypes xmi:id="_tDd3Y7yMEeyJdIl06y8pew" name="Reference">
+      <modelElement href="csc335-project4-WestLaos.uml#_s23l0LyMEeyJdIl06y8pew"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tDd3YLyMEeyJdIl06y8pew" text="">
+      <visualProperties xmi:id="_tNR6sLyMEeyJdIl06y8pew" position="-15.159997994924339,-90.9735053737839"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tDd3YbyMEeyJdIl06y8pew" aggregationKind="NONE" name="">
+      <modelElement href="csc335-project4-WestLaos.uml#_s22-wbyMEeyJdIl06y8pew"/>
+      <visualProperties xmi:id="_tNRToryMEeyJdIl06y8pew" position="2.177059140453366,-71.24559940441684"/>
+      <visibility xmi:id="_tDhhwbyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tDhhwLyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tDd3YryMEeyJdIl06y8pew" aggregationKind="NONE" name="model" navigable="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2RI47yMEeyJdIl06y8pew"/>
+      <visualProperties xmi:id="_tNR6sbyMEeyJdIl06y8pew" position="-20.072813481535945,-150.15183078644515"/>
+      <visibility xmi:id="_tDiI0byMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDiI0LyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tDXwwLyMEeyJdIl06y8pew" sourceAnchor="726.0,53.0" targetAnchor="0.0,150.0" target="_tBGf4LyMEeyJdIl06y8pew" source="_tDoPebyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s23l0byMEeyJdIl06y8pew"/>
+    <stereotypes xmi:id="_tDd3Z7yMEeyJdIl06y8pew" name="Reference">
+      <modelElement href="csc335-project4-WestLaos.uml#_s24M4LyMEeyJdIl06y8pew"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tDd3ZLyMEeyJdIl06y8pew" text="">
+      <visualProperties xmi:id="_tNTI0LyMEeyJdIl06y8pew" position="48.86384136426827,-4.562716745874496"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tDd3ZbyMEeyJdIl06y8pew" aggregationKind="NONE" name="">
+      <modelElement href="csc335-project4-WestLaos.uml#_s23l0ryMEeyJdIl06y8pew"/>
+      <visualProperties xmi:id="_tNShwLyMEeyJdIl06y8pew" position="38.41713947274836,-16.9786330181185"/>
+      <visibility xmi:id="_tDiI1LyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tDiI07yMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tDd3ZryMEeyJdIl06y8pew" aggregationKind="NONE" name="controler" navigable="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2Rv8byMEeyJdIl06y8pew"/>
+      <visualProperties xmi:id="_tNTI0byMEeyJdIl06y8pew" position="62.17535987188194,-16.028431124058386"/>
+      <visibility xmi:id="_tDiI1ryMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDiI1byMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tDeecbyMEeyJdIl06y8pew" targetItem="_tDoP0byMEeyJdIl06y8pew" sourceItem="_tDeecLyMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tDfFgbyMEeyJdIl06y8pew" targetItem="_tDoP17yMEeyJdIl06y8pew" sourceItem="_tDfFgLyMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tDfFg7yMEeyJdIl06y8pew" targetItem="_tDoP3LyMEeyJdIl06y8pew" sourceItem="_tDfFgryMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tDfskbyMEeyJdIl06y8pew" targetItem="_tDoP6ryMEeyJdIl06y8pew" sourceItem="_tDfskLyMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tDj-ALyMEeyJdIl06y8pew" source="_tDoPebyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2w4IbyMEeyJdIl06y8pew"/>
+    <stereotypes xmi:id="_tDj-AbyMEeyJdIl06y8pew" name="Reference">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2xfMLyMEeyJdIl06y8pew"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tDj-AryMEeyJdIl06y8pew" text=""/>
+    <sourceRole xmi:id="_tDj-A7yMEeyJdIl06y8pew" aggregationKind="NONE" name="">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2w4IryMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDj-BLyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tDj-BbyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tDj-BryMEeyJdIl06y8pew" aggregationKind="NONE" name="BACKGROUND_WHITE" navigable="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2OFkbyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDj-B7yMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDj-CLyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tDklELyMEeyJdIl06y8pew" source="_tDoPebyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2xfMbyMEeyJdIl06y8pew"/>
+    <stereotypes xmi:id="_tDklEbyMEeyJdIl06y8pew" name="Reference">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2yGQLyMEeyJdIl06y8pew"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tDklEryMEeyJdIl06y8pew" text=""/>
+    <sourceRole xmi:id="_tDklE7yMEeyJdIl06y8pew" aggregationKind="NONE" name="">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2xfMryMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDklFLyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tDklFbyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tDklFryMEeyJdIl06y8pew" aggregationKind="NONE" name="BACKGROUND_GREY" navigable="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2OFk7yMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDklF7yMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDklGLyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tDlMILyMEeyJdIl06y8pew" source="_tDoPebyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2ytULyMEeyJdIl06y8pew"/>
+    <stereotypes xmi:id="_tDlMIbyMEeyJdIl06y8pew" name="Reference">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2ytUryMEeyJdIl06y8pew"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tDlMIryMEeyJdIl06y8pew" text=""/>
+    <sourceRole xmi:id="_tDlMI7yMEeyJdIl06y8pew" aggregationKind="NONE" name="">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2ytUbyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDlMJLyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tDlMJbyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tDlMJryMEeyJdIl06y8pew" aggregationKind="NONE" name="BACKGROUND_RED" navigable="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2OsoLyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDlMJ7yMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDlMKLyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tDlMKbyMEeyJdIl06y8pew" source="_tDoPebyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2ytU7yMEeyJdIl06y8pew"/>
+    <stereotypes xmi:id="_tDlMKryMEeyJdIl06y8pew" name="Reference">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2zUYLyMEeyJdIl06y8pew"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tDlMK7yMEeyJdIl06y8pew" text=""/>
+    <sourceRole xmi:id="_tDlMLLyMEeyJdIl06y8pew" aggregationKind="NONE" name="">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2ytVLyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDlMLbyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tDlMLryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tDlML7yMEeyJdIl06y8pew" aggregationKind="NONE" name="BACKGROUND_YELLOW" navigable="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2OsoryMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDlMMLyMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDlMMbyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tDlzMLyMEeyJdIl06y8pew" source="_tDoPebyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2zUYbyMEeyJdIl06y8pew"/>
+    <stereotypes xmi:id="_tDlzMbyMEeyJdIl06y8pew" name="Reference">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2z7cLyMEeyJdIl06y8pew"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tDlzMryMEeyJdIl06y8pew" text=""/>
+    <sourceRole xmi:id="_tDlzM7yMEeyJdIl06y8pew" aggregationKind="NONE" name="">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2zUYryMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDlzNLyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tDlzNbyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tDlzNryMEeyJdIl06y8pew" aggregationKind="NONE" name="BACKGROUND_GREEN" navigable="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2OspLyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDlzN7yMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDlzOLyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tDmaQLyMEeyJdIl06y8pew" source="_tDoPebyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2z7cbyMEeyJdIl06y8pew"/>
+    <stereotypes xmi:id="_tDmaQbyMEeyJdIl06y8pew" name="Reference">
+      <modelElement href="csc335-project4-WestLaos.uml#_s20igLyMEeyJdIl06y8pew"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tDmaQryMEeyJdIl06y8pew" text=""/>
+    <sourceRole xmi:id="_tDmaQ7yMEeyJdIl06y8pew" aggregationKind="NONE" name="">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2z7cryMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDmaRLyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tDmaRbyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tDmaRryMEeyJdIl06y8pew" aggregationKind="NONE" name="inputLabel" navigable="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2PTsbyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDmaR7yMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDmaSLyMEeyJdIl06y8pew" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tDnBULyMEeyJdIl06y8pew" source="_tDoPebyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s20igbyMEeyJdIl06y8pew"/>
+    <stereotypes xmi:id="_tDnBUbyMEeyJdIl06y8pew" name="Reference">
+      <modelElement href="csc335-project4-WestLaos.uml#_s21JkLyMEeyJdIl06y8pew"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tDnBUryMEeyJdIl06y8pew" text=""/>
+    <sourceRole xmi:id="_tDnBU7yMEeyJdIl06y8pew" aggregationKind="NONE" name="">
+      <modelElement href="csc335-project4-WestLaos.uml#_s20igryMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDnBVLyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tDnBVbyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tDnBVryMEeyJdIl06y8pew" aggregationKind="NONE" name="alphabet" navigable="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2P6wbyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDnBV7yMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDnBWLyMEeyJdIl06y8pew" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tDnoYLyMEeyJdIl06y8pew" source="_tDoPebyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s21JkbyMEeyJdIl06y8pew"/>
+    <stereotypes xmi:id="_tDnoYbyMEeyJdIl06y8pew" name="Reference">
+      <modelElement href="csc335-project4-WestLaos.uml#_s21woLyMEeyJdIl06y8pew"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tDnoYryMEeyJdIl06y8pew" text=""/>
+    <sourceRole xmi:id="_tDnoY7yMEeyJdIl06y8pew" aggregationKind="NONE" name="">
+      <modelElement href="csc335-project4-WestLaos.uml#_s21JkryMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDnoZLyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tDnoZbyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tDnoZryMEeyJdIl06y8pew" aggregationKind="NONE" name="stage" navigable="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2Qh07yMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDnoZ7yMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDnoaLyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tDoPcLyMEeyJdIl06y8pew" source="_tDoPebyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s22XsLyMEeyJdIl06y8pew"/>
+    <stereotypes xmi:id="_tDoPcbyMEeyJdIl06y8pew" name="Reference">
+      <modelElement href="csc335-project4-WestLaos.uml#_s22XsryMEeyJdIl06y8pew"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tDoPcryMEeyJdIl06y8pew" text=""/>
+    <sourceRole xmi:id="_tDoPc7yMEeyJdIl06y8pew" aggregationKind="NONE" name="">
+      <modelElement href="csc335-project4-WestLaos.uml#_s22XsbyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDoPdLyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tDoPdbyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tDoPdryMEeyJdIl06y8pew" aggregationKind="NONE" name="vbox" navigable="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2RI4byMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDoPd7yMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoPeLyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tD7KYLyMEeyJdIl06y8pew" sourceAnchor="0.0,69.0" targetAnchor="0.0,208.0" target="_tCiDQLyMEeyJdIl06y8pew" source="_tEAC4LyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s24M4byMEeyJdIl06y8pew"/>
+    <bendpoints xmi:id="_tNPecLyMEeyJdIl06y8pew" sourceX="-94" targetX="-370" targetY="1100"/>
+    <bendpoints xmi:id="_tNPecbyMEeyJdIl06y8pew" sourceX="-94" sourceY="-1100" targetX="-370"/>
+    <stereotypes xmi:id="_tD9moLyMEeyJdIl06y8pew" name="Reference">
+      <modelElement href="csc335-project4-WestLaos.uml#_s24z8LyMEeyJdIl06y8pew"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tD8_kLyMEeyJdIl06y8pew" text="">
+      <visualProperties xmi:id="_tNUW8LyMEeyJdIl06y8pew" position="-64.43901737602823,539.2216381207872"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tD8_kbyMEeyJdIl06y8pew" aggregationKind="NONE" name="">
+      <modelElement href="csc335-project4-WestLaos.uml#_s24M4ryMEeyJdIl06y8pew"/>
+      <visualProperties xmi:id="_tNTv4LyMEeyJdIl06y8pew" position="-66.76160872583557,-32.32196767669643"/>
+      <visibility xmi:id="_tD-0wbyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tD-0wLyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tD8_kryMEeyJdIl06y8pew" aggregationKind="NONE" name="model" navigable="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2S-ELyMEeyJdIl06y8pew"/>
+      <visualProperties xmi:id="_tNUW8byMEeyJdIl06y8pew" position="-521.2187768704533,1066.8429466856655"/>
+      <visibility xmi:id="_tD_b0byMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tD_b0LyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tD8YgLyMEeyJdIl06y8pew" sourceAnchor="568.0,69.0" targetAnchor="230.0,300.0" target="_tBGf4LyMEeyJdIl06y8pew" source="_tEAC4LyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s25bALyMEeyJdIl06y8pew"/>
+    <bendpoints xmi:id="_tNPecryMEeyJdIl06y8pew" sourceX="379" targetY="538"/>
+    <stereotypes xmi:id="_tD9mpLyMEeyJdIl06y8pew" name="Reference">
+      <modelElement href="csc335-project4-WestLaos.uml#_s25bAryMEeyJdIl06y8pew"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tD9mobyMEeyJdIl06y8pew" text="">
+      <visualProperties xmi:id="_tNU-ALyMEeyJdIl06y8pew" position="-301.2041552713007,-8.014661175727497"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tD9moryMEeyJdIl06y8pew" aggregationKind="NONE" name="">
+      <modelElement href="csc335-project4-WestLaos.uml#_s25bAbyMEeyJdIl06y8pew"/>
+      <visualProperties xmi:id="_tNUW8ryMEeyJdIl06y8pew" position="33.52876214189416,-18.190237519548077"/>
+      <visibility xmi:id="_tD_b1LyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tD_b07yMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tD9mo7yMEeyJdIl06y8pew" aggregationKind="NONE" name="controler" navigable="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2TlIbyMEeyJdIl06y8pew"/>
+      <visualProperties xmi:id="_tNU-AbyMEeyJdIl06y8pew" position="-259.7062843915731,519.1201619500672"/>
+      <visibility xmi:id="_tD_b1ryMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tD_b1byMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tD9mpryMEeyJdIl06y8pew" targetItem="_tEAC8ryMEeyJdIl06y8pew" sourceItem="_tD9mpbyMEeyJdIl06y8pew"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tD9mqLyMEeyJdIl06y8pew" targetItem="_tEAC9byMEeyJdIl06y8pew" sourceItem="_tD9mp7yMEeyJdIl06y8pew"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tA6SoLyMEeyJdIl06y8pew" sourceConnectionVisual="_tA65sLyMEeyJdIl06y8pew" text="Returns true or false to indicate if game is over.&#xA;&#x9; * &#xA;&#x9; * If player has either guessed the correct word or run out of guesses &#xA;&#x9; * this will return true else it will return false.&#xA;&#x9; * &#xA;&#x9; * @return isGameOver a boolean value that is false &#xA;&#x9; * when the game is still running and true when the end has been reached." item="_tBGf8ryMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2nuMLyMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tA7gwLyMEeyJdIl06y8pew" sourceConnectionVisual="_tA7gwbyMEeyJdIl06y8pew" text="This returns a string of the correct word.&#xA;&#x9; * &#xA;&#x9; * This method gets the correct word from the model and then returns it.&#xA;&#x9; * &#xA;&#x9; * @return a String value of the correct word." item="_tBGf97yMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2nuMbyMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tA8H0LyMEeyJdIl06y8pew" sourceConnectionVisual="_tA8H0byMEeyJdIl06y8pew" text="@param guess a String value that contains the players guess at the correct word&#xA;&#x9; * @throws InvalidGuessException this indicates the String given in the parameter guess was either&#xA;&#x9; * to long to short or not contained in the file Dictionary.txt" item="_tBGf_LyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2nuM7yMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tA8u4LyMEeyJdIl06y8pew" sourceConnectionVisual="_tA8u4byMEeyJdIl06y8pew" text="Retuns a int represent the num of guesses given to the player.&#xA;&#x9; * &#xA;&#x9; * Gets the number of guesses the player has from the model and returns it.&#xA;&#x9; * &#xA;&#x9; * @return int represent the num of guesses given to the player." item="_tBGgAryMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2nuNLyMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tA8u4ryMEeyJdIl06y8pew" sourceConnectionVisual="_tA8u47yMEeyJdIl06y8pew" text="Returns int representing the Length of words in wordle.&#xA;&#x9; * &#xA;&#x9; * Gets the length of words from the model and returns it&#xA;&#x9; * &#xA;&#x9; * @return int representing the Length of words in wordle." item="_tBGgB7yMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2nuNbyMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tA9V8LyMEeyJdIl06y8pew" sourceConnectionVisual="_tA9V8byMEeyJdIl06y8pew" text="Retuns a int represent the num of guesses player has made so far&#xA;&#x9; * &#xA;&#x9; * Gets the number of guesses the player has made from the model and returns it.&#xA;&#x9; * &#xA;&#x9; * @return int represent the num of guesses made by the player." item="_tBGgDLyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2oVQLyMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tA9V8ryMEeyJdIl06y8pew" sourceConnectionVisual="_tA9V87yMEeyJdIl06y8pew" text="Returns a INDEX_RESULT[] containing all guessed characters.&#xA;&#x9; * &#xA;&#x9; * Returns a INDEX_RESULT[] of length 26 containing INDEX_RESULTS for guessed&#xA;&#x9; * characters at their alphabetical location and null values for characters &#xA;&#x9; * that have not been guessed.&#xA;&#x9; * &#xA;&#x9; * @return a INDEX_RESULT[] containing all guessed characters." item="_tBGgEbyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2oVQbyMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tA_LILyMEeyJdIl06y8pew" sourceConnectionVisual="_tA_LIbyMEeyJdIl06y8pew" text="Returns a Guess[] containing all guesses made so far.&#xA;&#x9; * &#xA;&#x9; * Returns a Guess[] of length model.NUM_OF_GUESSES containing all guesses&#xA;&#x9; * made so far and null values for remaining guesses.&#xA;&#x9; * &#xA;&#x9; * @return a Guess[] containing all guesses made in the game so far." item="_tBGgF7yMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2oVQryMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tCV2ALyMEeyJdIl06y8pew" sourceConnectionVisual="_tCV2AbyMEeyJdIl06y8pew" text="@author West Laos&#xA;&#x9; *&#xA;&#x9; * This class extends Exception and is used to indicate to the view when&#xA;&#x9; * the user has entered and Invalid guess&#xA;&#x9; *" item="_tCXrMLyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2nuMryMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tCb8oLyMEeyJdIl06y8pew" sourceConnectionVisual="_tCb8obyMEeyJdIl06y8pew" text="Returns a word to be used as the correct answer for the game. &#xA;&#x9; * &#xA;&#x9; * A word is selected from Dictionary.txt and returned and used as answer for game.&#xA;&#x9; * Also initiallized the validWords field filling it with all words from Dictionary.txt.&#xA;&#x9; * &#xA;&#x9; * @return String of a word&#xA;&#x9; * @throws FileNotFoundException throws error if Dictionary.txt missing" item="_tCiDdbyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2oVQ7yMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tCcjsLyMEeyJdIl06y8pew" sourceConnectionVisual="_tCdKwLyMEeyJdIl06y8pew" text="Takes in a string value and turns it into a guess and adds it to progress&#xA;&#x9; * &#xA;&#x9; * Takes in a string value sees which letters in it if any match the answers and creates&#xA;&#x9; * and Guess to represent how close it was to the correct answer and if it was correct.&#xA;&#x9; * &#xA;&#x9; * @param guess String value representing player guess at correct the answer" item="_tCiDeryMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2oVRLyMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tCdKwbyMEeyJdIl06y8pew" sourceConnectionVisual="_tCdKwryMEeyJdIl06y8pew" text="Returns a Guess[] containing all guesses made so far.&#xA;&#x9; * &#xA;&#x9; * Returns a Guess[] of length model.NUM_OF_GUESSES containing all guesses&#xA;&#x9; * made so far and null values for remaining guesses.&#xA;&#x9; * &#xA;&#x9; * @return a Guess[] containing all guesses made in the game so far." item="_tCiDg7yMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2oVRbyMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tCdx0LyMEeyJdIl06y8pew" sourceConnectionVisual="_tCdx0byMEeyJdIl06y8pew" text="Checks if word given is valid for the game&#xA;&#x9; * &#xA;&#x9; * Returns true if the word given is contained in Dictionary.txt else returns false&#xA;&#x9; * &#xA;&#x9; * @param word String of word to be checked against word in dictionary&#xA;&#x9; * @return Boolean representing if word is valid" item="_tCiDibyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2oVRryMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tCdx0ryMEeyJdIl06y8pew" sourceConnectionVisual="_tCdx07yMEeyJdIl06y8pew" text="Retuns a int represent the num of guesses player has made so far&#xA;&#x9; * &#xA;&#x9; * Gets the number of guesses the player has made from the model and returns it.&#xA;&#x9; * &#xA;&#x9; * @return int represent the num of guesses made by the player." item="_tCiDkbyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2oVR7yMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tCdx1LyMEeyJdIl06y8pew" sourceConnectionVisual="_tCeY4LyMEeyJdIl06y8pew" text="Returns int representing the Length of words in wordle.&#xA;&#x9; * &#xA;&#x9; * Gets the length of words from the model and returns it&#xA;&#x9; * &#xA;&#x9; * @return int representing the Length of words in wordle." item="_tCiDlryMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2oVSLyMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tCeY4byMEeyJdIl06y8pew" sourceConnectionVisual="_tCeY4ryMEeyJdIl06y8pew" text="Retuns a boolean representing if game is over.&#xA;&#x9; * &#xA;&#x9; * Returns true if game is over returns false if game has not ended&#xA;&#x9; * &#xA;&#x9; * @return boolean" item="_tCiDm7yMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2oVSbyMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tDeecLyMEeyJdIl06y8pew" sourceConnectionVisual="_tDeecbyMEeyJdIl06y8pew" text="Creates alert telling user and error occured.&#xA;&#x9;* &#xA;&#x9;* Animates current row turning gray and alerts users as to what was wrong with their guess.&#xA;&#x9;* &#xA;&#x9;* @param String error:" item="_tDoP0byMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2o8U7yMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tDfFgLyMEeyJdIl06y8pew" sourceConnectionVisual="_tDfFgbyMEeyJdIl06y8pew" text="Creates a grid pane.&#xA;&#x9;* &#xA;&#x9;* the grid panes height, width and background color all come from constants in class&#xA;&#x9;* &#xA;&#x9;* @return Gridpane" item="_tDoP17yMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2o8VLyMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tDfFgryMEeyJdIl06y8pew" sourceConnectionVisual="_tDfFg7yMEeyJdIl06y8pew" text="Causes all labels in given row to rotate&#xA;&#x9; * &#xA;&#x9; * Create a rotation trasition and applies it to given row in this.Label&#xA;&#x9; * &#xA;&#x9; * @param int row signifies which row to apply animation to" item="_tDoP3LyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2o8VryMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tDfskLyMEeyJdIl06y8pew" sourceConnectionVisual="_tDfskbyMEeyJdIl06y8pew" text="Creates a label.&#xA;&#x9;* &#xA;&#x9;* creates a label based on the parameters given&#xA;&#x9;* &#xA;&#x9;* @param String letter, int boxSize, int fontSize, Background color, boolean border&#xA;&#x9;* &#xA;&#x9;* @return Label" item="_tDoP6ryMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2o8VbyMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tD9mpbyMEeyJdIl06y8pew" sourceConnectionVisual="_tD9mpryMEeyJdIl06y8pew" text="Starts a game of wordle using text base ui&#xA;&#x9; * &#xA;&#x9; * Takes in user input and passes it off to WordleControler untill game has ended&#xA;&#x9; * &#xA;&#x9; * @throws FileNotFoundException throws error if Dictionary.txt missing" item="_tEAC8ryMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2pjYLyMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tD9mp7yMEeyJdIl06y8pew" sourceConnectionVisual="_tD9mqLyMEeyJdIl06y8pew" text="prints all INDEX_RESULTS from an array of a specific type&#xA;&#x9; * &#xA;&#x9; * Prints the letter val of indices of the desiredType.&#xA;&#x9; * &#xA;&#x9; * @param INDEX_RESULT[] indices , INDEX_RESULT desiredType" item="_tEAC9byMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_s2pjYbyMEeyJdIl06y8pew"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tBGf4LyMEeyJdIl06y8pew" name="WordleController" associationsIn="_tDXwwLyMEeyJdIl06y8pew _tD8YgLyMEeyJdIl06y8pew" associationsOut="_tBFRwLyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_suOAILyMEeyJdIl06y8pew"/>
+    <visualProperties xmi:id="_tBGf4byMEeyJdIl06y8pew" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_tBGf4ryMEeyJdIl06y8pew" label="+"/>
+    <attributes xmi:id="_tBGf47yMEeyJdIl06y8pew" name="NUM_OF_GUESSES">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2B4ULyMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tBGf5LyMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2CfYLyMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tBGf5byMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tBGf5ryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tBGf57yMEeyJdIl06y8pew" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tBGf6LyMEeyJdIl06y8pew" name="WORD_LENGTH">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2DGcLyMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tBGf6byMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2DGcbyMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tBGf6ryMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tBGf67yMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tBGf7LyMEeyJdIl06y8pew" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tBGf7byMEeyJdIl06y8pew" name="model">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2DGcryMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tBGf7ryMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2DGc7yMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tBGf77yMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tBGf8LyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tBGf8byMEeyJdIl06y8pew" name="WordleModel">
+        <modelElement href="csc335-project4-WestLaos.uml#_sud3wLyMEeyJdIl06y8pew"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tBGf8ryMEeyJdIl06y8pew" comments="_tA6SoLyMEeyJdIl06y8pew" targetConnectionVisual="_tA65sLyMEeyJdIl06y8pew" name="isGameOver">
+      <modelElement href="csc335-project4-WestLaos.uml#_suSRkLyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tBGf87yMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tBGf9LyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tBGf9byMEeyJdIl06y8pew">
+        <modelElement href="csc335-project4-WestLaos.uml#_suTfsLyMEeyJdIl06y8pew"/>
+        <type xmi:id="_tBGf9ryMEeyJdIl06y8pew" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tBGf97yMEeyJdIl06y8pew" comments="_tA7gwLyMEeyJdIl06y8pew" targetConnectionVisual="_tA7gwbyMEeyJdIl06y8pew" name="getAnswer">
+      <modelElement href="csc335-project4-WestLaos.uml#_suTfsbyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tBGf-LyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tBGf-byMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tBGf-ryMEeyJdIl06y8pew">
+        <modelElement href="csc335-project4-WestLaos.uml#_suUGwLyMEeyJdIl06y8pew"/>
+        <type xmi:id="_tBGf-7yMEeyJdIl06y8pew" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tBGf_LyMEeyJdIl06y8pew" comments="_tA8H0LyMEeyJdIl06y8pew" targetConnectionVisual="_tA8H0byMEeyJdIl06y8pew" name="makeGuess">
+      <modelElement href="csc335-project4-WestLaos.uml#_suXKELyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tBGf_byMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tBGf_ryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tBGf_7yMEeyJdIl06y8pew" name="guess">
+        <modelElement href="csc335-project4-WestLaos.uml#_suXKEbyMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tBGgALyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tBGgAbyMEeyJdIl06y8pew" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tBGgAryMEeyJdIl06y8pew" comments="_tA8u4LyMEeyJdIl06y8pew" targetConnectionVisual="_tA8u4byMEeyJdIl06y8pew" name="getNumOfGuesses">
+      <modelElement href="csc335-project4-WestLaos.uml#_suXxILyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tBGgA7yMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tBGgBLyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tBGgBbyMEeyJdIl06y8pew">
+        <modelElement href="csc335-project4-WestLaos.uml#_suYYMLyMEeyJdIl06y8pew"/>
+        <type xmi:id="_tBGgBryMEeyJdIl06y8pew" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tBGgB7yMEeyJdIl06y8pew" comments="_tA8u4ryMEeyJdIl06y8pew" targetConnectionVisual="_tA8u47yMEeyJdIl06y8pew" name="getWordLength">
+      <modelElement href="csc335-project4-WestLaos.uml#_suYYMbyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tBGgCLyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tBGgCbyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tBGgCryMEeyJdIl06y8pew">
+        <modelElement href="csc335-project4-WestLaos.uml#_suYYMryMEeyJdIl06y8pew"/>
+        <type xmi:id="_tBGgC7yMEeyJdIl06y8pew" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tBGgDLyMEeyJdIl06y8pew" comments="_tA9V8LyMEeyJdIl06y8pew" targetConnectionVisual="_tA9V8byMEeyJdIl06y8pew" name="getNumGuessesMade">
+      <modelElement href="csc335-project4-WestLaos.uml#_suY_QLyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tBGgDbyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tBGgDryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tBGgD7yMEeyJdIl06y8pew">
+        <modelElement href="csc335-project4-WestLaos.uml#_suY_QbyMEeyJdIl06y8pew"/>
+        <type xmi:id="_tBGgELyMEeyJdIl06y8pew" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tBGgEbyMEeyJdIl06y8pew" comments="_tA9V8ryMEeyJdIl06y8pew" targetConnectionVisual="_tA9V87yMEeyJdIl06y8pew" name="getGuessedChars">
+      <modelElement href="csc335-project4-WestLaos.uml#_suZmULyMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tBGgEryMEeyJdIl06y8pew" name="Array">
+        <modelElement href="csc335-project4-WestLaos.uml#_suZmU7yMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tBGgE7yMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tBGgFLyMEeyJdIl06y8pew" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_tBGgFbyMEeyJdIl06y8pew">
+        <modelElement href="csc335-project4-WestLaos.uml#_suZmUbyMEeyJdIl06y8pew"/>
+        <type xmi:id="_tBGgFryMEeyJdIl06y8pew" name="INDEX_RESULT">
+          <modelElement href="csc335-project4-WestLaos.uml#_suqsELyMEeyJdIl06y8pew"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tBGgF7yMEeyJdIl06y8pew" comments="_tA_LILyMEeyJdIl06y8pew" targetConnectionVisual="_tA_LIbyMEeyJdIl06y8pew" name="getProgress">
+      <modelElement href="csc335-project4-WestLaos.uml#_suaNYLyMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tBGgGLyMEeyJdIl06y8pew" name="Array">
+        <modelElement href="csc335-project4-WestLaos.uml#_subbgLyMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tBGgGbyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tBGgGryMEeyJdIl06y8pew" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_tBGgG7yMEeyJdIl06y8pew">
+        <modelElement href="csc335-project4-WestLaos.uml#_sua0cLyMEeyJdIl06y8pew"/>
+        <type xmi:id="_tBGgHLyMEeyJdIl06y8pew" name="Guess">
+          <modelElement href="csc335-project4-WestLaos.uml#_suo24LyMEeyJdIl06y8pew"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tBGgHbyMEeyJdIl06y8pew" name="WordleController">
+      <modelElement href="csc335-project4-WestLaos.uml#_s09hULyMEeyJdIl06y8pew"/>
+      <keywords xmi:id="_tBGgHryMEeyJdIl06y8pew" keyword="create"/>
+      <visibility xmi:id="_tBGgH7yMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tBGgILyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tBGgIbyMEeyJdIl06y8pew">
+        <modelElement href="csc335-project4-WestLaos.uml#_s0-IYryMEeyJdIl06y8pew"/>
+        <type xmi:id="_tBGgIryMEeyJdIl06y8pew" name="WordleController">
+          <modelElement href="csc335-project4-WestLaos.uml#_suOAILyMEeyJdIl06y8pew"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tBGgI7yMEeyJdIl06y8pew" name="model">
+        <modelElement href="csc335-project4-WestLaos.uml#_s09hUbyMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tBGgJLyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tBGgJbyMEeyJdIl06y8pew" name="WordleModel">
+          <modelElement href="csc335-project4-WestLaos.uml#_sud3wLyMEeyJdIl06y8pew"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tC_WQLyMEeyJdIl06y8pew" name="Guess" associationsIn="_tCbVkLyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_suo24LyMEeyJdIl06y8pew"/>
+    <visualProperties xmi:id="_tC_WQbyMEeyJdIl06y8pew" position="-510.0,-634.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_tC_WQryMEeyJdIl06y8pew" label="+"/>
+    <attributes xmi:id="_tC_WQ7yMEeyJdIl06y8pew" name="guess">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2ImALyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tC_WRLyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tC_WRbyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tC_WRryMEeyJdIl06y8pew" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tC_WR7yMEeyJdIl06y8pew" name="indices">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2ImAbyMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tC_WSLyMEeyJdIl06y8pew" name="Array">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2ImA7yMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tC_WSbyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tC_WSryMEeyJdIl06y8pew" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_tC_WS7yMEeyJdIl06y8pew" name="INDEX_RESULT">
+        <modelElement href="csc335-project4-WestLaos.uml#_suqsELyMEeyJdIl06y8pew"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tC_WTLyMEeyJdIl06y8pew" name="isCorrect">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2JNELyMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tC_WTbyMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2JNEbyMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tC_WTryMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tC_WT7yMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tC_WULyMEeyJdIl06y8pew" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tC_WUbyMEeyJdIl06y8pew" name="Guess">
+      <modelElement href="csc335-project4-WestLaos.uml#_s1JukLyMEeyJdIl06y8pew"/>
+      <keywords xmi:id="_tC_WUryMEeyJdIl06y8pew" keyword="create"/>
+      <visibility xmi:id="_tC_WU7yMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tC_9ULyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tC_9UbyMEeyJdIl06y8pew">
+        <modelElement href="csc335-project4-WestLaos.uml#_s1KVo7yMEeyJdIl06y8pew"/>
+        <type xmi:id="_tC_9UryMEeyJdIl06y8pew" name="Guess">
+          <modelElement href="csc335-project4-WestLaos.uml#_suo24LyMEeyJdIl06y8pew"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tC_9U7yMEeyJdIl06y8pew" name="guess">
+        <modelElement href="csc335-project4-WestLaos.uml#_s1JukbyMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tC_9VLyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tC_9VbyMEeyJdIl06y8pew" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tC_9VryMEeyJdIl06y8pew" name="indices">
+        <modelElement href="csc335-project4-WestLaos.uml#_s1JukryMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tC_9V7yMEeyJdIl06y8pew" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_tC_9WLyMEeyJdIl06y8pew" name="INDEX_RESULT">
+          <modelElement href="csc335-project4-WestLaos.uml#_suqsELyMEeyJdIl06y8pew"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tC_9WbyMEeyJdIl06y8pew" name="isCorrect">
+        <modelElement href="csc335-project4-WestLaos.uml#_s1KVoLyMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tC_9WryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tC_9W7yMEeyJdIl06y8pew" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tDK8cLyMEeyJdIl06y8pew" name="Wordle">
+    <modelElement href="csc335-project4-WestLaos.uml#_suu9gLyMEeyJdIl06y8pew"/>
+    <visualProperties xmi:id="_tDK8cbyMEeyJdIl06y8pew" position="-1517.0,555.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_tDK8cryMEeyJdIl06y8pew" label="+"/>
+    <operations xmi:id="_tDK8c7yMEeyJdIl06y8pew" name="main" staticOperation="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_suwLoLyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDK8dLyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tDK8dbyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tDK8dryMEeyJdIl06y8pew" name="args">
+        <modelElement href="csc335-project4-WestLaos.uml#_suwLobyMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tDK8d7yMEeyJdIl06y8pew" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_tDK8eLyMEeyJdIl06y8pew" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tDK8ebyMEeyJdIl06y8pew" name="playWordleTextView" staticOperation="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_suwysbyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDK8eryMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDK8e7yMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tDK8fLyMEeyJdIl06y8pew" name="playAgainTextView" staticOperation="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_suyA0LyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDK8fbyMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDK8fryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tDK8f7yMEeyJdIl06y8pew">
+        <modelElement href="csc335-project4-WestLaos.uml#_suyA0byMEeyJdIl06y8pew"/>
+        <type xmi:id="_tDK8gLyMEeyJdIl06y8pew" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tC86ALyMEeyJdIl06y8pew" name="FileNotFoundException">
+    <modelElement href="csc335-project4-WestLaos.uml#_s1CZ0byMEeyJdIl06y8pew"/>
+    <visualProperties xmi:id="_tC86AbyMEeyJdIl06y8pew" position="-1172.0,604.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_tC86AryMEeyJdIl06y8pew" name="Reference">
+      <modelElement href="csc335-project4-WestLaos.uml#_s1Dn8LyMEeyJdIl06y8pew"/>
+    </stereotypes>
+    <visibility xmi:id="_tC86A7yMEeyJdIl06y8pew" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tEAC4LyMEeyJdIl06y8pew" name="WordleTextView" associationsOut="_tD7KYLyMEeyJdIl06y8pew _tD8YgLyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_su-OELyMEeyJdIl06y8pew"/>
+    <visualProperties xmi:id="_tEAC4byMEeyJdIl06y8pew" position="-687.0,799.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_tEAC4ryMEeyJdIl06y8pew" label="+"/>
+    <attributes xmi:id="_tEAC47yMEeyJdIl06y8pew" name="model">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2S-ELyMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tEAC5LyMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2TlILyMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tEAC5byMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tEAC5ryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tEAC57yMEeyJdIl06y8pew" name="WordleModel">
+        <modelElement href="csc335-project4-WestLaos.uml#_sud3wLyMEeyJdIl06y8pew"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tEAC6LyMEeyJdIl06y8pew" name="controler">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2TlIbyMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tEAC6byMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2TlIryMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tEAC6ryMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tEAC67yMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tEAC7LyMEeyJdIl06y8pew" name="WordleController">
+        <modelElement href="csc335-project4-WestLaos.uml#_suOAILyMEeyJdIl06y8pew"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tEAC7byMEeyJdIl06y8pew" name="playerGuess">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2TlI7yMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tEAC7ryMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2UMMLyMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tEAC77yMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tEAC8LyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tEAC8byMEeyJdIl06y8pew" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tEAC8ryMEeyJdIl06y8pew" comments="_tD9mpbyMEeyJdIl06y8pew" targetConnectionVisual="_tD9mpryMEeyJdIl06y8pew" name="play">
+      <modelElement href="csc335-project4-WestLaos.uml#_su_cMLyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tEAC87yMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tEAC9LyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tEAC9byMEeyJdIl06y8pew" comments="_tD9mp7yMEeyJdIl06y8pew" targetConnectionVisual="_tD9mqLyMEeyJdIl06y8pew" name="printIndexType" staticOperation="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s1r6ELyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tEAC9ryMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tEAC97yMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tEAC-LyMEeyJdIl06y8pew" name="indices">
+        <modelElement href="csc335-project4-WestLaos.uml#_s1shILyMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tEAC-byMEeyJdIl06y8pew" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_tEAC-ryMEeyJdIl06y8pew" name="INDEX_RESULT">
+          <modelElement href="csc335-project4-WestLaos.uml#_suqsELyMEeyJdIl06y8pew"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tEAC-7yMEeyJdIl06y8pew" name="desiredType">
+        <modelElement href="csc335-project4-WestLaos.uml#_s1shIbyMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tEAC_LyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tEAC_byMEeyJdIl06y8pew" name="INDEX_RESULT">
+          <modelElement href="csc335-project4-WestLaos.uml#_suqsELyMEeyJdIl06y8pew"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tEAC_ryMEeyJdIl06y8pew" name="update">
+      <modelElement href="csc335-project4-WestLaos.uml#_s1-1ALyMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tEAC_7yMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s1_cELyMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tEADALyMEeyJdIl06y8pew" name="Annotations">
+        <modelElement href="csc335-project4-WestLaos.uml#_s1_cEbyMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tEADAbyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tEADAryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tEADA7yMEeyJdIl06y8pew" name="o">
+        <modelElement href="csc335-project4-WestLaos.uml#_s1-1AbyMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tEADBLyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tEADBbyMEeyJdIl06y8pew" name="Observable">
+          <modelElement href="csc335-project4-WestLaos.uml#_suklcLyMEeyJdIl06y8pew"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tEADBryMEeyJdIl06y8pew" name="arg">
+        <modelElement href="csc335-project4-WestLaos.uml#_s1-1AryMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tEADB7yMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tEADCLyMEeyJdIl06y8pew" name="Object">
+          <modelElement href="csc335-project4-WestLaos.uml#_s17Ko7yMEeyJdIl06y8pew"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tDoPebyMEeyJdIl06y8pew" name="WordleGUIView" associationsOut="_tDN_wLyMEeyJdIl06y8pew _tDXwwLyMEeyJdIl06y8pew _tDj-ALyMEeyJdIl06y8pew _tDklELyMEeyJdIl06y8pew _tDlMILyMEeyJdIl06y8pew _tDlMKbyMEeyJdIl06y8pew _tDlzMLyMEeyJdIl06y8pew _tDmaQLyMEeyJdIl06y8pew _tDnBULyMEeyJdIl06y8pew _tDnoYLyMEeyJdIl06y8pew _tDoPcLyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_suyn4LyMEeyJdIl06y8pew"/>
+    <visualProperties xmi:id="_tDoPeryMEeyJdIl06y8pew" position="-766.0,127.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_tDoPe7yMEeyJdIl06y8pew" label="+"/>
+    <attributes xmi:id="_tDoPfLyMEeyJdIl06y8pew" defaultValue="800" name="SCENE_WIDTH" staticAttribute="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2MQYLyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDoPfbyMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoPfryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tDoPf7yMEeyJdIl06y8pew" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tDoPgLyMEeyJdIl06y8pew" defaultValue="800" name="SCENE_HEIGHT" staticAttribute="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2MQYryMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDoPgbyMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoPgryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tDoPg7yMEeyJdIl06y8pew" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tDoPhLyMEeyJdIl06y8pew" defaultValue="4" name="GRID_GAP" staticAttribute="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2M3cLyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDoPhbyMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoPhryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tDoPh7yMEeyJdIl06y8pew" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tDoPiLyMEeyJdIl06y8pew" defaultValue="55" name="LETTER_FONT_SIZE" staticAttribute="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2M3cryMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDoPibyMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoPiryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tDoPi7yMEeyJdIl06y8pew" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tDoPjLyMEeyJdIl06y8pew" defaultValue="65" name="LETTER_SQUARE_SIZE" staticAttribute="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2M3dLyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDoPjbyMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoPjryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tDoPj7yMEeyJdIl06y8pew" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tDoPkLyMEeyJdIl06y8pew" defaultValue="35" name="DISPLAY_FONT_SIZE" staticAttribute="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2NegbyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDoPkbyMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoPkryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tDoPk7yMEeyJdIl06y8pew" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tDoPlLyMEeyJdIl06y8pew" defaultValue="45" name="DISPLAY_SQUARE_SIZE" staticAttribute="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2Neg7yMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDoPlbyMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoPlryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tDoPl7yMEeyJdIl06y8pew" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tDoPmLyMEeyJdIl06y8pew" defaultValue="new Background(new BackgroundFill(Color.rgb(250, 250, 250, 1), new &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;CornerRadii(5.0), new Insets(0)))" name="BACKGROUND_WHITE" staticAttribute="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2OFkbyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDoPmbyMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoPmryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tDoPm7yMEeyJdIl06y8pew" name="Background">
+        <modelElement href="csc335-project4-WestLaos.uml#_s1ZmMbyMEeyJdIl06y8pew"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tDoPnLyMEeyJdIl06y8pew" defaultValue="new Background(new BackgroundFill(Color.rgb(200, 200, 200, 1), new &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;CornerRadii(5.0), new Insets(0)))" name="BACKGROUND_GREY" staticAttribute="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2OFk7yMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDoPnbyMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoPnryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tDoPn7yMEeyJdIl06y8pew" name="Background">
+        <modelElement href="csc335-project4-WestLaos.uml#_s1ZmMbyMEeyJdIl06y8pew"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tDoPoLyMEeyJdIl06y8pew" defaultValue="new Background(new BackgroundFill(Color.rgb(238, 75, 43, 1), new &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;CornerRadii(5.0), new Insets(0)))" name="BACKGROUND_RED" staticAttribute="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2OsoLyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDoPobyMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoPoryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tDoPo7yMEeyJdIl06y8pew" name="Background">
+        <modelElement href="csc335-project4-WestLaos.uml#_s1ZmMbyMEeyJdIl06y8pew"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tDoPpLyMEeyJdIl06y8pew" defaultValue="new Background(new BackgroundFill(Color.rgb(225, 234, 0, 1), new &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;CornerRadii(5.0), new Insets(0)))" name="BACKGROUND_YELLOW" staticAttribute="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2OsoryMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDoPpbyMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoPpryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tDoPp7yMEeyJdIl06y8pew" name="Background">
+        <modelElement href="csc335-project4-WestLaos.uml#_s1ZmMbyMEeyJdIl06y8pew"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tDoPqLyMEeyJdIl06y8pew" defaultValue="new Background(new BackgroundFill(Color.rgb(34, 139, 34, 1), new &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;CornerRadii(5.0), new Insets(0)))" name="BACKGROUND_GREEN" staticAttribute="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2OspLyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDoPqbyMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoPqryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tDoPq7yMEeyJdIl06y8pew" name="Background">
+        <modelElement href="csc335-project4-WestLaos.uml#_s1ZmMbyMEeyJdIl06y8pew"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tDoPrLyMEeyJdIl06y8pew" name="inputLabel">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2PTsbyMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tDoPrbyMEeyJdIl06y8pew" name="Array">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2PTs7yMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tDoPrryMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2P6wLyMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tDoPr7yMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoPsLyMEeyJdIl06y8pew" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_tDoPsbyMEeyJdIl06y8pew" name="Label">
+        <modelElement href="csc335-project4-WestLaos.uml#_s1XxAbyMEeyJdIl06y8pew"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tDoPsryMEeyJdIl06y8pew" name="alphabet">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2P6wbyMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tDoPs7yMEeyJdIl06y8pew" name="Array">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2Qh0byMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tDoPtLyMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2Qh0ryMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tDoPtbyMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoPtryMEeyJdIl06y8pew" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_tDoPt7yMEeyJdIl06y8pew" name="Label">
+        <modelElement href="csc335-project4-WestLaos.uml#_s1XxAbyMEeyJdIl06y8pew"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tDoPuLyMEeyJdIl06y8pew" name="stage">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2Qh07yMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tDoPubyMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2RI4LyMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tDoPuryMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoPu7yMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tDoPvLyMEeyJdIl06y8pew" name="Stage">
+        <modelElement href="csc335-project4-WestLaos.uml#_s1jXMLyMEeyJdIl06y8pew"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tDoPvbyMEeyJdIl06y8pew" name="vbox">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2RI4byMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tDoPvryMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2RI4ryMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tDoPv7yMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoPwLyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tDoPwbyMEeyJdIl06y8pew" name="VBox">
+        <modelElement href="csc335-project4-WestLaos.uml#_s1ees7yMEeyJdIl06y8pew"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tDoPwryMEeyJdIl06y8pew" name="model">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2RI47yMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tDoPw7yMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2Rv8LyMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tDoPxLyMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoPxbyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tDoPxryMEeyJdIl06y8pew" name="WordleModel">
+        <modelElement href="csc335-project4-WestLaos.uml#_sud3wLyMEeyJdIl06y8pew"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tDoPx7yMEeyJdIl06y8pew" name="controler">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2Rv8byMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tDoPyLyMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2Rv8ryMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tDoPybyMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoPyryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tDoPy7yMEeyJdIl06y8pew" name="WordleController">
+        <modelElement href="csc335-project4-WestLaos.uml#_suOAILyMEeyJdIl06y8pew"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tDoPzLyMEeyJdIl06y8pew" name="curGuess">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2Rv87yMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tDoPzbyMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2Rv9LyMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tDoPzryMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoPz7yMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tDoP0LyMEeyJdIl06y8pew" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tDoP0byMEeyJdIl06y8pew" comments="_tDeecLyMEeyJdIl06y8pew" targetConnectionVisual="_tDeecbyMEeyJdIl06y8pew" name="invalidInput">
+      <modelElement href="csc335-project4-WestLaos.uml#_su2SQLyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDoP0ryMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoP07yMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tDoP1LyMEeyJdIl06y8pew" name="error">
+        <modelElement href="csc335-project4-WestLaos.uml#_su2SQbyMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tDoP1byMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tDoP1ryMEeyJdIl06y8pew" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tDoP17yMEeyJdIl06y8pew" comments="_tDfFgLyMEeyJdIl06y8pew" targetConnectionVisual="_tDfFgbyMEeyJdIl06y8pew" name="createGrid">
+      <modelElement href="csc335-project4-WestLaos.uml#_su25ULyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDoP2LyMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoP2byMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tDoP2ryMEeyJdIl06y8pew">
+        <modelElement href="csc335-project4-WestLaos.uml#_s16jkLyMEeyJdIl06y8pew"/>
+        <type xmi:id="_tDoP27yMEeyJdIl06y8pew" name="GridPane">
+          <modelElement href="csc335-project4-WestLaos.uml#_s1d3obyMEeyJdIl06y8pew"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tDoP3LyMEeyJdIl06y8pew" comments="_tDfFgryMEeyJdIl06y8pew" targetConnectionVisual="_tDfFg7yMEeyJdIl06y8pew" name="gameWinAnimation">
+      <modelElement href="csc335-project4-WestLaos.uml#_su4HcLyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDoP3byMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoP3ryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tDoP37yMEeyJdIl06y8pew" name="row">
+        <modelElement href="csc335-project4-WestLaos.uml#_su4ugLyMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tDoP4LyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tDoP4byMEeyJdIl06y8pew" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tDoP4ryMEeyJdIl06y8pew" name="start">
+      <modelElement href="csc335-project4-WestLaos.uml#_s14uYLyMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tDoP47yMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s15VcLyMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tDoP5LyMEeyJdIl06y8pew" name="Annotations">
+        <modelElement href="csc335-project4-WestLaos.uml#_s158gLyMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tDoP5byMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tDoP5ryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tDoP57yMEeyJdIl06y8pew" name="stage">
+        <modelElement href="csc335-project4-WestLaos.uml#_s14uYbyMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tDoP6LyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tDoP6byMEeyJdIl06y8pew" name="Stage">
+          <modelElement href="csc335-project4-WestLaos.uml#_s1jXMLyMEeyJdIl06y8pew"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tDoP6ryMEeyJdIl06y8pew" comments="_tDfskLyMEeyJdIl06y8pew" targetConnectionVisual="_tDfskbyMEeyJdIl06y8pew" name="createLabel" staticOperation="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s16jkbyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDoP67yMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDoP7LyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tDoP7byMEeyJdIl06y8pew">
+        <modelElement href="csc335-project4-WestLaos.uml#_s17KoryMEeyJdIl06y8pew"/>
+        <type xmi:id="_tDoP7ryMEeyJdIl06y8pew" name="Label">
+          <modelElement href="csc335-project4-WestLaos.uml#_s1XxAbyMEeyJdIl06y8pew"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tDoP77yMEeyJdIl06y8pew" name="letter">
+        <modelElement href="csc335-project4-WestLaos.uml#_s16jkryMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tDoP8LyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tDoP8byMEeyJdIl06y8pew" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tDoP8ryMEeyJdIl06y8pew" name="boxSize">
+        <modelElement href="csc335-project4-WestLaos.uml#_s16jk7yMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tDoP87yMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tDoP9LyMEeyJdIl06y8pew" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tDoP9byMEeyJdIl06y8pew" name="fontSize">
+        <modelElement href="csc335-project4-WestLaos.uml#_s16jlLyMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tDoP9ryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tDoP97yMEeyJdIl06y8pew" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tDoP-LyMEeyJdIl06y8pew" name="color">
+        <modelElement href="csc335-project4-WestLaos.uml#_s17KoLyMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tDoP-byMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tDoP-ryMEeyJdIl06y8pew" name="Background">
+          <modelElement href="csc335-project4-WestLaos.uml#_s1ZmMbyMEeyJdIl06y8pew"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tDoP-7yMEeyJdIl06y8pew" name="border">
+        <modelElement href="csc335-project4-WestLaos.uml#_s17KobyMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tDoP_LyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tDoP_byMEeyJdIl06y8pew" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tDoP_ryMEeyJdIl06y8pew" name="update">
+      <modelElement href="csc335-project4-WestLaos.uml#_s17xsbyMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tDoP_7yMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s18YwryMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tDoQALyMEeyJdIl06y8pew" name="Annotations">
+        <modelElement href="csc335-project4-WestLaos.uml#_s18Yw7yMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tDoQAbyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tDoQAryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tDoQA7yMEeyJdIl06y8pew" name="o">
+        <modelElement href="csc335-project4-WestLaos.uml#_s18YwLyMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tDoQBLyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tDoQBbyMEeyJdIl06y8pew" name="Observable">
+          <modelElement href="csc335-project4-WestLaos.uml#_suklcLyMEeyJdIl06y8pew"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tDoQBryMEeyJdIl06y8pew" name="arg">
+        <modelElement href="csc335-project4-WestLaos.uml#_s18YwbyMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tDoQB7yMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tDoQCLyMEeyJdIl06y8pew" name="Object">
+          <modelElement href="csc335-project4-WestLaos.uml#_s17Ko7yMEeyJdIl06y8pew"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_tDFc4LyMEeyJdIl06y8pew" name="INDEX_RESULT">
+    <modelElement href="csc335-project4-WestLaos.uml#_suqsELyMEeyJdIl06y8pew"/>
+    <visualProperties xmi:id="_tDFc4byMEeyJdIl06y8pew" position="-1288.0,741.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_tDFc4ryMEeyJdIl06y8pew" label="+"/>
+    <attributes xmi:id="_tDFc47yMEeyJdIl06y8pew" name="description">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2LCQLyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tDFc5LyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tDFc5byMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tDFc5ryMEeyJdIl06y8pew" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tDFc57yMEeyJdIl06y8pew" name="INDEX_RESULT">
+      <modelElement href="csc335-project4-WestLaos.uml#_sutIULyMEeyJdIl06y8pew"/>
+      <keywords xmi:id="_tDFc6LyMEeyJdIl06y8pew" keyword="create"/>
+      <visibility xmi:id="_tDFc6byMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tDFc6ryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tDFc67yMEeyJdIl06y8pew">
+        <modelElement href="csc335-project4-WestLaos.uml#_sutvYryMEeyJdIl06y8pew"/>
+        <type xmi:id="_tDFc7LyMEeyJdIl06y8pew" name="INDEX_RESULT">
+          <modelElement href="csc335-project4-WestLaos.uml#_suqsELyMEeyJdIl06y8pew"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tDFc7byMEeyJdIl06y8pew" name="description">
+        <modelElement href="csc335-project4-WestLaos.uml#_sutIUbyMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tDFc7ryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tDFc77yMEeyJdIl06y8pew" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <literals xmi:id="_tDFc8LyMEeyJdIl06y8pew" name="INCORRECT">
+      <modelElement href="csc335-project4-WestLaos.uml#_surTILyMEeyJdIl06y8pew"/>
+    </literals>
+    <literals xmi:id="_tDFc8byMEeyJdIl06y8pew" name="CORRECT">
+      <modelElement href="csc335-project4-WestLaos.uml#_sur6MLyMEeyJdIl06y8pew"/>
+    </literals>
+    <literals xmi:id="_tDFc8ryMEeyJdIl06y8pew" name="CORRECT_WRONG_INDEX">
+      <modelElement href="csc335-project4-WestLaos.uml#_sur6MryMEeyJdIl06y8pew"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tCXrMLyMEeyJdIl06y8pew" comments="_tCV2ALyMEeyJdIl06y8pew" targetConnectionVisual="_tCV2AbyMEeyJdIl06y8pew" name="InvalidGuessException">
+    <modelElement href="csc335-project4-WestLaos.uml#_suUt0LyMEeyJdIl06y8pew"/>
+    <visualProperties xmi:id="_tCXrMbyMEeyJdIl06y8pew" position="-1329.0,-213.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_tCXrMryMEeyJdIl06y8pew" label="+"/>
+    <operations xmi:id="_tCXrM7yMEeyJdIl06y8pew" name="InvalidGuessException">
+      <modelElement href="csc335-project4-WestLaos.uml#_suVU4LyMEeyJdIl06y8pew"/>
+      <keywords xmi:id="_tCXrNLyMEeyJdIl06y8pew" keyword="create"/>
+      <visibility xmi:id="_tCXrNbyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tCXrNryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tCXrN7yMEeyJdIl06y8pew">
+        <modelElement href="csc335-project4-WestLaos.uml#_suV78ryMEeyJdIl06y8pew"/>
+        <type xmi:id="_tCXrOLyMEeyJdIl06y8pew" name="InvalidGuessException">
+          <modelElement href="csc335-project4-WestLaos.uml#_suUt0LyMEeyJdIl06y8pew"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tCXrObyMEeyJdIl06y8pew" name="message">
+        <modelElement href="csc335-project4-WestLaos.uml#_suVU4byMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tCXrOryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tCXrO7yMEeyJdIl06y8pew" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tCiDQLyMEeyJdIl06y8pew" name="WordleModel" associationsIn="_tBFRwLyMEeyJdIl06y8pew _tDN_wLyMEeyJdIl06y8pew _tD7KYLyMEeyJdIl06y8pew" associationsOut="_tCbVkLyMEeyJdIl06y8pew">
+    <modelElement href="csc335-project4-WestLaos.uml#_sud3wLyMEeyJdIl06y8pew"/>
+    <visualProperties xmi:id="_tCiDQbyMEeyJdIl06y8pew" position="-411.0,-440.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_tCiDQryMEeyJdIl06y8pew" label="+"/>
+    <attributes xmi:id="_tCiDQ7yMEeyJdIl06y8pew" defaultValue="&quot;dictionary.txt&quot;" name="FILENAME" staticAttribute="true">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2DtgLyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tCiDRLyMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tCiDRbyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tCiDRryMEeyJdIl06y8pew" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tCiDR7yMEeyJdIl06y8pew" defaultValue="6" name="NUM_OF_GUESSES">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2EUkbyMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tCiDSLyMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2E7obyMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tCiDSbyMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tCiDSryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tCiDS7yMEeyJdIl06y8pew" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tCiDTLyMEeyJdIl06y8pew" defaultValue="5" name="WORD_LENGTH">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2E7oryMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tCiDTbyMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2FisLyMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tCiDTryMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tCiDT7yMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tCiDULyMEeyJdIl06y8pew" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tCiDUbyMEeyJdIl06y8pew" name="guessedCharacters">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2FisbyMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tCiDUryMEeyJdIl06y8pew" name="Array">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2GJwLyMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tCiDU7yMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tCiDVLyMEeyJdIl06y8pew" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_tCiDVbyMEeyJdIl06y8pew" name="INDEX_RESULT">
+        <modelElement href="csc335-project4-WestLaos.uml#_suqsELyMEeyJdIl06y8pew"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tCiDVryMEeyJdIl06y8pew" name="progress">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2GJwbyMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tCiDV7yMEeyJdIl06y8pew" name="Array">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2GJw7yMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tCiDWLyMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2Gw0LyMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tCiDWbyMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tCiDWryMEeyJdIl06y8pew" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_tCiDW7yMEeyJdIl06y8pew" name="Guess">
+        <modelElement href="csc335-project4-WestLaos.uml#_suo24LyMEeyJdIl06y8pew"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tCiDXLyMEeyJdIl06y8pew" name="validWords">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2Gw0byMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tCiDXbyMEeyJdIl06y8pew" name="Array">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2Gw07yMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tCiDXryMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2Gw1LyMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tCiDX7yMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tCiDYLyMEeyJdIl06y8pew" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_tCiDYbyMEeyJdIl06y8pew" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tCiDYryMEeyJdIl06y8pew" name="answer">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2HX4LyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tCiDY7yMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tCiDZLyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tCiDZbyMEeyJdIl06y8pew" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tCiDZryMEeyJdIl06y8pew" name="numGuessesMade">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2HX4byMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tCiDZ7yMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tCiDaLyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tCiDabyMEeyJdIl06y8pew" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tCiDaryMEeyJdIl06y8pew" name="isGameOver">
+      <modelElement href="csc335-project4-WestLaos.uml#_s2HX4ryMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tCiDa7yMEeyJdIl06y8pew" name="LegacyStyledElement">
+        <modelElement href="csc335-project4-WestLaos.uml#_s2H-8LyMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tCiDbLyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tCiDbbyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <type xmi:id="_tCiDbryMEeyJdIl06y8pew" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tCiDb7yMEeyJdIl06y8pew" name="WordleModel">
+      <modelElement href="csc335-project4-WestLaos.uml#_sufs8LyMEeyJdIl06y8pew"/>
+      <keywords xmi:id="_tCiDcLyMEeyJdIl06y8pew" keyword="create"/>
+      <visibility xmi:id="_tCiDcbyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tCiDcryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tCiDc7yMEeyJdIl06y8pew">
+        <modelElement href="csc335-project4-WestLaos.uml#_sufs87yMEeyJdIl06y8pew"/>
+        <type xmi:id="_tCiDdLyMEeyJdIl06y8pew" name="WordleModel">
+          <modelElement href="csc335-project4-WestLaos.uml#_sud3wLyMEeyJdIl06y8pew"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tCiDdbyMEeyJdIl06y8pew" comments="_tCb8oLyMEeyJdIl06y8pew" targetConnectionVisual="_tCb8obyMEeyJdIl06y8pew" name="getWordFromDict">
+      <modelElement href="csc335-project4-WestLaos.uml#_sug7ELyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tCiDdryMEeyJdIl06y8pew" label="-"/>
+      <cardinality xmi:id="_tCiDd7yMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tCiDeLyMEeyJdIl06y8pew">
+        <modelElement href="csc335-project4-WestLaos.uml#_sug7EbyMEeyJdIl06y8pew"/>
+        <type xmi:id="_tCiDebyMEeyJdIl06y8pew" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tCiDeryMEeyJdIl06y8pew" comments="_tCcjsLyMEeyJdIl06y8pew" targetConnectionVisual="_tCdKwLyMEeyJdIl06y8pew" name="makeGuess">
+      <modelElement href="csc335-project4-WestLaos.uml#_suiJMLyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tCiDe7yMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tCiDfLyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tCiDfbyMEeyJdIl06y8pew" name="guessNumber">
+        <modelElement href="csc335-project4-WestLaos.uml#_suiJMbyMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tCiDfryMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tCiDf7yMEeyJdIl06y8pew" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tCiDgLyMEeyJdIl06y8pew" name="guess">
+        <modelElement href="csc335-project4-WestLaos.uml#_suiJMryMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tCiDgbyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tCiDgryMEeyJdIl06y8pew" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tCiDg7yMEeyJdIl06y8pew" comments="_tCdKwbyMEeyJdIl06y8pew" targetConnectionVisual="_tCdKwryMEeyJdIl06y8pew" name="getProgress">
+      <modelElement href="csc335-project4-WestLaos.uml#_suiJM7yMEeyJdIl06y8pew"/>
+      <stereotypes xmi:id="_tCiDhLyMEeyJdIl06y8pew" name="Array">
+        <modelElement href="csc335-project4-WestLaos.uml#_suiwQbyMEeyJdIl06y8pew"/>
+      </stereotypes>
+      <visibility xmi:id="_tCiDhbyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tCiDhryMEeyJdIl06y8pew" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_tCiDh7yMEeyJdIl06y8pew">
+        <modelElement href="csc335-project4-WestLaos.uml#_suiJNLyMEeyJdIl06y8pew"/>
+        <type xmi:id="_tCiDiLyMEeyJdIl06y8pew" name="Guess">
+          <modelElement href="csc335-project4-WestLaos.uml#_suo24LyMEeyJdIl06y8pew"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tCiDibyMEeyJdIl06y8pew" comments="_tCdx0LyMEeyJdIl06y8pew" targetConnectionVisual="_tCdx0byMEeyJdIl06y8pew" name="isWordValid">
+      <modelElement href="csc335-project4-WestLaos.uml#_sujXULyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tCiDiryMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tCiDi7yMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tCiDjLyMEeyJdIl06y8pew">
+        <modelElement href="csc335-project4-WestLaos.uml#_sujXUryMEeyJdIl06y8pew"/>
+        <type xmi:id="_tCiDjbyMEeyJdIl06y8pew" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tCiDjryMEeyJdIl06y8pew" name="word">
+        <modelElement href="csc335-project4-WestLaos.uml#_sujXUbyMEeyJdIl06y8pew"/>
+        <cardinality xmi:id="_tCiDj7yMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+        <type xmi:id="_tCiDkLyMEeyJdIl06y8pew" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tCiDkbyMEeyJdIl06y8pew" comments="_tCdx0ryMEeyJdIl06y8pew" targetConnectionVisual="_tCdx07yMEeyJdIl06y8pew" name="getNumOfGuesses">
+      <modelElement href="csc335-project4-WestLaos.uml#_sujXU7yMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tCiDkryMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tCiDk7yMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tCiDlLyMEeyJdIl06y8pew">
+        <modelElement href="csc335-project4-WestLaos.uml#_sujXVLyMEeyJdIl06y8pew"/>
+        <type xmi:id="_tCiDlbyMEeyJdIl06y8pew" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tCiDlryMEeyJdIl06y8pew" comments="_tCdx1LyMEeyJdIl06y8pew" targetConnectionVisual="_tCeY4LyMEeyJdIl06y8pew" name="getWordLength">
+      <modelElement href="csc335-project4-WestLaos.uml#_suj-YLyMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tCiDl7yMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tCiDmLyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tCiDmbyMEeyJdIl06y8pew">
+        <modelElement href="csc335-project4-WestLaos.uml#_suj-YbyMEeyJdIl06y8pew"/>
+        <type xmi:id="_tCiDmryMEeyJdIl06y8pew" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tCiDm7yMEeyJdIl06y8pew" comments="_tCeY4byMEeyJdIl06y8pew" targetConnectionVisual="_tCeY4ryMEeyJdIl06y8pew" name="isGameOver">
+      <modelElement href="csc335-project4-WestLaos.uml#_suj-YryMEeyJdIl06y8pew"/>
+      <visibility xmi:id="_tCiDnLyMEeyJdIl06y8pew" label="+"/>
+      <cardinality xmi:id="_tCiDnbyMEeyJdIl06y8pew" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tCiDnryMEeyJdIl06y8pew">
+        <modelElement href="csc335-project4-WestLaos.uml#_suj-Y7yMEeyJdIl06y8pew"/>
+        <type xmi:id="_tCiDn7yMEeyJdIl06y8pew" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
