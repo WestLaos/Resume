@@ -1,17 +1,3 @@
-fileFormatVersion: 2
-guid: 5ba2f90426bb9f3489c9ee43e1d4f980
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences:
-  - timeTracker: {instanceID: 0}
-  - playerCamera: {instanceID: 0}
-  - overviewCamera: {instanceID: 0}
-  - playerHealth: {instanceID: 0}
-  - hpBar: {instanceID: 0}
-  - jumpSound: {fileID: 8300000, guid: 07b22194b780244d993d799e96cb733e, type: 3}
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:17734b7f11703d46ef6376262e47f0a1f5c2e51549e9cd83799d7ba78aa919f3
+size 503

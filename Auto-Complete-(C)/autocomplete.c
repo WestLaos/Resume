@@ -6,6 +6,12 @@
  */
 #include <stdio.h>
 
+
+
+
+
+
+
 int main(int argc, char **argv) {
 	
 	// Checks the correct number of arguments were given in the command line. 
