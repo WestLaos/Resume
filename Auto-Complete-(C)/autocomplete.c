@@ -4,16 +4,41 @@
  * Description: This file takes in incomplete or incorrectly spelled words and
  * 		offers words that they could be meant to be. 
  */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 
 // This class is used to store all known words.
 typedef struct wordTree {
+	int set;
 	struct wordTree *letters; 
 } wordTree;
 
+int addToTree(wordTree *tree, char *word) {
+	// Check if word is null
+	if (word == NULL || word[0] == '\n') {
+		return 0;
+	}
+	// Checks if their if first letter in word is already in letters
+	if (tree->set == 0) {
+		tree->set = 1;
+		tree->letters = calloc(1, sizeof(wordTree));
+	}
+	
+	// Creates substring of word without the first letter
+	char* substr = malloc(strlen(word) - 1);
+	strncpy(substr, word+1, strlen(word));
+	
+	// for testing printf("%c\n", word[0]);
+	
+	addToTree( &(tree->letters[ (tolower(word[0]) - 'a') ]), substr);
+	
+	free(substr);
 
+	return 0;
+}
 
 int main(int argc, char **argv) {
 	
@@ -21,17 +46,24 @@ int main(int argc, char **argv) {
 	if (argc == 3) {
 		
 		// First program adds all words in in the given file to a wordTree 
-		
 		FILE *wordBank = fopen(argv[1], "r");
 		char line[256];
-
+		
+		// Checks that the file given is valid
 		if (wordBank == NULL) {
 			fprintf(stderr, "ERROR: %s does not exist.\n", argv[1]);
 			return 1;
 		}
-
+		
+		// Create wordTree	
+		wordTree *tree = calloc(1, sizeof(wordTree));
+		tree->set = 1;
+		tree->letters = calloc(26, sizeof(wordTree));
+		
+			
+		// Goes line by line through given file adding words to wordBank
 		while (fgets(line, sizeof(line), wordBank)) {
-			printf("%s", line);
+			addToTree(tree, line);
 		}
 
 		fclose(wordBank);
