@@ -1,8 +1,7 @@
 /*
  * File: autocomplete.c
  * Author: Frederic W Laos
- * Description: This file takes in incomplete or incorrectly spelled words and
- * 		offers words that they could be meant to be. 
+ * Description: This file takes in incomplete and offers words potential completions. 
  */
 
 #include <stdio.h>
@@ -24,19 +23,31 @@ int addToTree(wordTree *tree, char *word) {
 	// Checks if their if first letter in word is already in letters
 	if (tree->set == 0) {
 		tree->set = 1;
-		tree->letters = calloc(1, sizeof(wordTree));
+		tree->letters = calloc(26, sizeof(wordTree));
 	}
 	
 	// Creates substring of word without the first letter
-	char* substr = malloc(strlen(word) - 1);
+	char* substr = malloc(strlen(word));
 	strncpy(substr, word+1, strlen(word));
 	
-	// for testing printf("%c\n", word[0]);
+	printf("%c", word[0]);
 	
 	addToTree( &(tree->letters[ (tolower(word[0]) - 'a') ]), substr);
 	
 	free(substr);
+	
+	printf("\n");
 
+	return 0;
+}
+
+int freeMemory(wordTree *tree) {
+	if (tree->set == 1) {
+		for (int i = 0; i < 26; i++) {
+			freeMemory(&(tree->letters[i]));	
+		}
+		free(tree->letters);
+	}
 	return 0;
 }
 
@@ -65,8 +76,11 @@ int main(int argc, char **argv) {
 		while (fgets(line, sizeof(line), wordBank)) {
 			addToTree(tree, line);
 		}
-
+		
 		fclose(wordBank);
+		
+		freeMemory(tree);
+	        free(tree);		
 
 	// Checks if no command line argument were given if so prints error
 	} else if (argc < 3) {
