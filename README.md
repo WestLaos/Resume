@@ -5,7 +5,7 @@ This repo contains several coding projects which I have contributed to.
 This is a game which I helped make during my intership at techcore at the University
 of Arizona. All of the scripts can be found here Unity-Game-Techcore-(C#)/Assets/Scripts/
 my main contributions were to MapGenerator.cs, AnimationController.cs, Desctructible.cs
-and PickUpWeapons.cs. As well as helping with some minor bug fixes in the player controller. 
+and PickUpWeapons.cs. As well as helping with some minor bug fixes in the PlayerController.cs. 
 
 # Wordle (Java)
 This is a java implementation of the popular game wordle. The game can both be played through
