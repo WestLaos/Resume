@@ -8,4 +8,12 @@ my main contributions were to MapGenerator.cs, AnimationController.cs, Desctruct
 and PickUpWeapons.cs. As well as helping with some minor bug fixes in the player controller. 
 
 # Wordle (Java)
-This is a java implementation of the popular game wordle. The game can both be played through a gui made using javafx and through a console based ui by starting the code with the command line argument -line 
+This is a java implementation of the popular game wordle. The game can both be played through
+a gui made using javafx and through a console based ui by starting the code with the command
+line argument -line 
+
+# Auto Complete (C)
+This is a basic C implmentation of a word autocomplete program. The file takes in a text
+file as an argument and will create a word tree representing every word in it. Then the 
+file takes in a string input and prints out any of the words from the text file which
+start with the given input.
