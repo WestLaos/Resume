@@ -2,19 +2,18 @@
 This repo contains several coding projects which I have contributed to. 
 
 # Unity Game Techcore (C#)
-Can be tested here. https://play.unity.com/p/webgl-builds-344131/edit.
-This is a game which I helped make during my intership at techcore at the University
+This is a game that I helped make during my internship at Tech Core at the University
 of Arizona. All of the scripts can be found here Unity-Game-Techcore-(C#)/Assets/Scripts/
-my main contributions were to MapGenerator.cs, AnimationController.cs, Desctructible.cs
-and PickUpWeapons.cs. As well as helping with some minor bug fixes in the PlayerController.cs. 
+my main contributions were to MapGenerator.cs, AnimationController.cs, Destructible.cs, 
+and PickUpWeapons.cs. I also helped with some minor bug fixes in the PlayerController.cs. 
 
 # Wordle (Java)
-This is a java implementation of the popular game wordle. The game can both be played through
-a gui made using javafx and through a console based ui by starting the code with the command
+This is a Java implementation of the popular game Wordle. The game can be played through
+a GUI made using JavaFX and through a console-based ui by starting the code with the command
 line argument "-line". 
 
 # Auto Complete (C)
-This is a basic C implmentation of a word autocomplete program. The program takes in a txt
-file as an argument and will create a word tree representing every word in it. Then the 
-program takes in a string input and prints out any of the words from the text file which
+This is a basic C implementation of a word autocomplete program. The program takes in a txt
+file as an argument and creates a word tree representing every word in it. Then, the 
+program takes in a string input and prints out any words from the text file that
 start with the given input.
